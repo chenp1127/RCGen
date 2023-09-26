@@ -57,7 +57,7 @@ const ContactLanding = () => {
           <h4>Customer Support:</h4>
           <p>Our dedicated customer support team is ready to assist you with any inquiries you may have.</p>
           <ul>
-            <li>- Email: support@pizzatime.com</li>
+            <li>- Email: support@rcgen.com</li>
             <li>- Phone: 000 (000) 123 4567</li>
             <li>- Hours: Monday - Friday, 8:00am - 9:00pm (EST)</li>
           </ul>
@@ -66,14 +66,14 @@ const ContactLanding = () => {
           <h4>General Inquiries:</h4>
           <p>If you have general questions about our company, partnerships, or anything else, feel free to get in touch.</p>
           <ul>
-            <li>- Email: info@pizzatime.com</li>
+            <li>- Email: info@rcgen.com</li>
           </ul>
         </section>
         <section>
           <h4>Feedback and Suggestions:</h4>
           <p>We value your feedback and are always striving to improve. If you have any suggestions, comments, or ideas on how we can enhance our offerings, please let us know.</p>
           <ul>
-            <li>- Email: feedback@pizzatime.com</li>
+            <li>- Email: feedback@rcgen.com</li>
           </ul>
         </section>
       </motion.div>

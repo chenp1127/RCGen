@@ -14,7 +14,7 @@ const Privacy = () => {
                     <h3>{content.id}. {content.title}:</h3>
                     <p>{content.content}</p>
                 </section>)}
-            <p>If you have any questions or concerns regarding our Privacy Policy, please contact us at info@pizzatime.com.
+            <p>If you have any questions or concerns regarding our Privacy Policy, please contact us at info@rcgen.com.
                 Thank you for trusting RCGen with your personal information.</p>
         </main>
     )
