@@ -1,26 +1,28 @@
+//types of recipes
+
 export const AllCategories = [
   {
-    name: "Menu",
-    id: "Menu",
+    name: "Dishes",
+    id: "Dishes",
   },
   {
-    name: "Pizza",
-    id: "Pizza",
+    name: "Chinese",
+    id: "Chinese",
   },
   {
-    name: "Pasta",
-    id: "Pasta",
+    name: "Western",
+    id: "Western",
   },
   {
-    name: "Sushi",
-    id: "Sushi",
+    name: "Indian",
+    id: "Indian",
   },
   {
-    name: "Drinks",
-    id: "Drinks",
+    name: "Mexican",
+    id: "Mexican",
   },
   {
-    name: "Sale",
-    id: "Sale",
+    name: "Healthy",
+    id: "Healthy",
   },
 ];

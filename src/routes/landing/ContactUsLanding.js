@@ -29,16 +29,16 @@ const ContactUsLanding = () => {
       />
       <section className='company-details'>
         <div>
-          <h2>000 (000) 123 4567</h2>
+          <h2>+65 8123 4567</h2>
           <p>Contact us if you have any questions</p>
         </div>
         <div>
-          <h2>506 Roy Alley 80202 </h2>
-          <p>Colorado, Denver</p>
+          <h2>123 Pizza Avenue </h2>
+          <p>Singapore, Singapore</p>
         </div>
         <div>
-          <h2>Open Monday-Friday</h2>
-          <p>8:00am - 9:00pm</p>
+          <h2>Helpdesk: Monday-Friday</h2>
+          <p>9:00am - 5:00pm</p>
         </div>
       </section>
     </section>

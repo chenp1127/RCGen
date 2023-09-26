@@ -18,19 +18,18 @@ const Hero = () => {
           transition={{ duration: 2 }}
         >
           <span>Welcome</span>
-          <h1 className="txt-white">try something amazing</h1>
+          <h1 className="txt-white">try something new</h1>
           <p className="txt-white">
-            Ordering your fave Pizza is quick and easy with our app or on our
-            website.
+            Be inspired to whip up new dishes. Cooking isn't as hard as you think!
           </p>
         </motion.div>
 
         <div className="header-btns flex-container flex-row">
-          <Link className=" passive-button-style" to="/blog">
-            Read Blog
+          <Link className=" passive-button-style" to="/menu">
+            View Recipes
           </Link>
-          <Link className=" passive-button-style  " to="/menu">
-            View Menu
+          <Link className=" passive-button-style  " to="/blog">
+            Eat healthy today
           </Link>
         </div>
       </section>

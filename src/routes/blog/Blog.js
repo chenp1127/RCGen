@@ -36,10 +36,9 @@ const Blog = () => {
       exit={{ opacity: 0, translateX: -300 }}
       transition={{ duration: 1 }}
     >
-      <h2>Blog</h2>
+      <h2>Healthy eating</h2>
       <p className="blog-intro">
-        Pizza makes everything better. These are some of our favorite pizza
-        blogs that are loaded with recipes and pizza-making tips.
+        Calories are not everything. However, our food intake determines our risk of illness. Eating healthy is as simple as ABC.
       </p>
       <section className="blog-grid">
         {currentBlogPosts.map((blogPost, index) => {

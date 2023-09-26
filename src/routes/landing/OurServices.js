@@ -16,10 +16,9 @@ const OurServices = () => {
     >
       <h2 className="pop-font">Our Services</h2>
       <p className="pop-font section-description">
-        Pizza Time provides services across all states - various foods and
-        drinks, you choose! What makes us special is our teams of
-        professionals with extensive knowledge of all cuisine that we have to
-        offer.
+        RCGen provides one click purchases for the ingredients you need for various recipes.
+        Simply choose what your would like to cook and purchase the ingredients to be collected at your nearest supermarket.
+        Be inspired and cook with us today!
       </p>
       <section className="services-grid  flex-container flex-column">
         {ourServices.map((service) => (
