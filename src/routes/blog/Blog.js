@@ -22,7 +22,7 @@ const Blog = () => {
   };
 
   useEffect(() => {
-    document.title = "Blog | Pizza Time";
+    document.title = "Blog | RCGen";
     setEndOffset(itemOffset + 5);
     setcurrentBlogPosts([...allBlogPosts].reverse().slice(itemOffset, endOffset));
     setpageCountPosts(Math.ceil(allBlogPosts.length / 5));

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const NotFound = () => {
     useEffect(() => {
-        document.title = "404 | Pizza Time";
+        document.title = "404 | RCGen";
     }, []);
     return (
         <main className="not-found">

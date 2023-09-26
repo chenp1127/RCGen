@@ -4,7 +4,7 @@ import allBlogPosts from '../../data/allBlogPosts'
 const BlogPost = () => {
     const [blogPost, setBlogPost] = useState({});
     useEffect(() => {
-        document.title = `${blogPost.name} | Pizza Time`;
+        document.title = `${blogPost.name} | RCGen`;
     }, [blogPost.name]);
     useEffect(() => {
         setBlogPost(allBlogPosts.filter((post) => post.name.toLowerCase() === window.location.pathname.toString().substring(6).replaceAll('-', ' '))[0])

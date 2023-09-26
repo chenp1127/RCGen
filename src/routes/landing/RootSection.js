@@ -16,7 +16,7 @@ import ContactLanding from "./ContactLanding";
 
 const RootSection = () => {
   useEffect(() => {
-    document.title = "Pizza Time";
+    document.title = "RCGen";
     ResetLocation();
   }, []);
   return (

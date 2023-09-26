@@ -5,7 +5,7 @@ import EmptyCart from "./EmptyCart";
 
 const Cart = ({ cartItems, CartItem }) => {
   useEffect(() => {
-    document.title = "Shopping Cart | Pizza Time";
+    document.title = "Shopping Cart | RCGen";
   }, []);
   return (
     <main className="cart">

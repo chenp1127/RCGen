@@ -27,7 +27,7 @@ const termsContent = [
     {
         id: 5,
         title: 'Intellectual Property',
-        content: `All content on our website, including text, images, logos, and trademarks, is the property of Pizza Time and its licensors. You may not use, reproduce, or distribute our content without explicit permission.`
+        content: `All content on our website, including text, images, logos, and trademarks, is the property of RCGen and its licensors. You may not use, reproduce, or distribute our content without explicit permission.`
     },
     {
         id: 6,

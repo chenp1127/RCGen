@@ -98,7 +98,7 @@ const Register = ({ activateLoginModal }) => {
   const validate = validateForm("registration");
 
   useEffect(() => {
-    document.title = "Registration | Pizza Time";
+    document.title = "Registration | RCGen";
   }, []);
   return (
     <main className="register-main">

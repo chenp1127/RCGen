@@ -16,7 +16,7 @@ const Contact = () => {
   const validate = validateForm("contact");
   const captchaRef = useRef();
   useEffect(() => {
-    document.title = "Contact | Pizza Time";
+    document.title = "Contact | RCGen";
   }, []);
   const handleSubmit = async (e) => {
     setLoading(true);

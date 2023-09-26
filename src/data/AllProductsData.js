@@ -1277,7 +1277,7 @@ export const allProductsData = [
     ItemImg: Romana,
     ItemName: 'Pinsa romana',
     ItemIngredients:
-      'Rice flour, olive oil, plain flour, sea salt, dried yeast.',
+      'Vegetarian pizza with spinach and cherry tomatoes',
     ItemPrice: (5).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -1285,10 +1285,12 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: 'rice flour', value: 'rice flour', calories: '100' },
+          { id: 'olive oil', value: 'olive oil', calories: '30' },
+          { id: 'sea salt', value: 'sea salt', calories: '20' },
+          { id: 'dried yeast', value: 'dried yeast', calories: '10' },
+          { id: 'cherry tomato', value: 'cherry tomato', calories: '50' },
+          { id: 'spinach', value: 'spinach', calories: '50' },
         ],
       },
     ],

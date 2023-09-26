@@ -27,7 +27,7 @@ const SingleItem = ({ handleAddProduct, handleRemoveProduct }) => {
   };
 
   useEffect(() => {
-    document.title = `${singleProduct.ItemName}| Pizza Time`;
+    document.title = `${singleProduct.ItemName}| RCGen`;
     setSingleProduct(allProductsData.filter((item) => item.id === window.location.pathname.toString().substring(6))[0]);
   }, [singleProduct.ItemName]);
 
