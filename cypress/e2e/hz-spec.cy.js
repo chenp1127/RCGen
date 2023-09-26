@@ -1,3 +1,5 @@
+// npx cypress run --browser chrome --spec './cypress/e2e/hz-spec.cy.js'
+
 URL="https://main.d8770hxk753d4.amplifyapp.com/"
 
 describe("Testing incorrect sign inl", () => {
