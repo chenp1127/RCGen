@@ -13,7 +13,9 @@ const AboutUs = () => {
         <h2>About us</h2>
         <h3 className='sub-title'>More than delicious food</h3>
         <p>
-          Founded in 2023, RCGen is here to spice up your daily dishes. Giving you inspiration and saving trouble from grocery shopping, use RCGen for an all new cooking experience.
+          Founded in 2023, RCGen is here to spice up your daily dishes. 
+          Balancing time saving and healthy eating, we fast forward and enable your journey to eating healthy, freeing up time for you loved ones.
+          Giving you inspiration and saving trouble from grocery shopping, use RCGen for an all new cooking experience.
         </p>
         <div className="section-one-glass"></div>
       </section>

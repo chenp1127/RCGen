@@ -2,27 +2,27 @@
 
 export const AllCategories = [
   {
-    name: "Dishes",
-    id: "Dishes",
+    name: "Menu",
+    id: "Menu",
   },
   {
-    name: "Chinese",
-    id: "Chinese",
+    name: "Pizza",
+    id: "Pizza",
   },
   {
-    name: "Western",
-    id: "Western",
+    name: "Pasta",
+    id: "Pasta",
   },
   {
-    name: "Indian",
-    id: "Indian",
+    name: "Sushi",
+    id: "Sushi",
   },
   {
-    name: "Mexican",
-    id: "Mexican",
+    name: "Drinks",
+    id: "Drinks",
   },
   {
-    name: "Healthy",
-    id: "Healthy",
+    name: "Sale",
+    id: "Sale",
   },
 ];
