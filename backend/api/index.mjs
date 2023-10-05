@@ -4,7 +4,7 @@ import cors from 'cors'; // Import the cors middleware
 import sql from '../config/sql.mjs';
 import indexRouter from '../routes/index.route.mjs';
 const app = express();
-const port = 3000; // Choose a port for your server
+const port = 8088; // Choose a port for your server
 app.use(cors());
 app.use(json());
 
