@@ -32,7 +32,7 @@ const MenuGridItem = ({ singleProduct, handleAddProduct, handleRemoveProduct }) 
         <img src={singleProduct.ItemImg} alt={`${singleProduct.ItemName}`} />
       </Link>
       <h3>{singleProduct.ItemName}</h3>
-      <p>{singleProduct.ItemIngredients}</p>
+      <p>{singleProduct.ItemDescription}</p>
       {singleProduct.attributes.length === 0 ? null :
         singleProduct.attributes?.map(attribute => (
           <Attribute

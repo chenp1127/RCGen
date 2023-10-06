@@ -44,7 +44,7 @@ const SingleItem = ({ handleAddProduct, handleRemoveProduct }) => {
         <section className="single-item-info">
           <section className="single-item-title">
             <h2>{singleProduct?.ItemName}</h2>
-            <p>{singleProduct?.ItemIngredients}</p>
+            <p>{singleProduct?.ItemDescription}</p>
           </section>
           {singleProduct?.attributes?.length === 0 ? null :
             singleProduct?.attributes?.map(attribute => (
