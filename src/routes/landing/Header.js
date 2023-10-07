@@ -34,7 +34,7 @@ const Header = ({ loginModal,
             alt="Pizza Time logo"
           />
           <h1>
-            Pizza <span>Time</span>
+            HZ <span>Test</span>
           </h1>
         </NavLink>
         <ul className={`navigation-menu flex-row pop-font ${isModalActive ? 'active' : ''}`}>

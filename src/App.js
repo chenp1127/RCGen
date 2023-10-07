@@ -4,7 +4,7 @@ import Header from './routes/landing/Header.js';
 import Footer from './components/footer/Footer';
 import {
   About,
-  Blog,
+  Recipe,
   Cart,
   Checkout,
   Contact,
@@ -25,7 +25,7 @@ import Refunds from './routes/refunds/Refunds.js';
 import Terms from './routes/terms/Terms.js';
 import Privacy from './routes/privacy/Privacy.js';
 import Careers from './routes/careers/Careers.js';
-import BlogPost from './routes/blog-post/BlogPost.js';
+import RecipePost from './routes/recipe-post/RecipePost.js';
 import Profile from './routes/profile/Profile.js';
 import ResetLocation from './helpers/ResetLocation.js';
 
@@ -480,8 +480,8 @@ function App() {
           }
         />
         <Route path="/contact" element={<Contact />} />
-        <Route exact path="/blog" element={<Blog />} />
-        <Route path="/blog/:name" element={<BlogPost />} />
+        <Route exact path="/recipe" element={<Recipe />} />
+        <Route path="/recipe/:name" element={<RecipePost />} />
         <Route path="/about" element={<About />} />
         <Route path="/register" element={validLogin ? <NotFound /> : <Register activateLoginModal={activateLoginModal} />} />
         <Route path="/profile" element={!validLogin ? <NotFound /> : <Profile currentUser={currentUser} getUser={getUser} handleLogout={handleLogout} updateUser={updateUser} />} />

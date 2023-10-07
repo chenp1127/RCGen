@@ -18,6 +18,8 @@ const LoginModal = ({ setLoginModalWindow, setValidLogin, loginModalWindow, hide
     try {
       const response = await fetch(process.env.REACT_APP_USERS_URL);
       const body = await response.json();
+      console.log(body)
+      console.log(body.data)
       return body.data;
     }
     catch (err) {
