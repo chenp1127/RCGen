@@ -35,11 +35,11 @@ export const createUser = (user) => {
         }
         if (address === undefined && number === undefined) {
             query = 'INSERT INTO users (id, email, password, fullname) VALUES(?, ?, ?, ?)';
-            params = [id, email, password, fullname,];
+            params = [id, email, password, fullname];
         }
         else {
-            query = 'INSERT INTO users (id, email, password, fullname, address) VALUES(?, ?, ?, ?, ?)';
-            params = [id, email, password, fullname, address];
+            query = 'INSERT INTO users (id, email, password, fullname, address, number) VALUES(?, ?, ?, ?, ?, ?)';
+            params = [id, email, password, fullname, address, number];
         }
         sql.execute(query, [...params])
             .then((result) => resolve(result))
