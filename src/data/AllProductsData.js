@@ -29,7 +29,7 @@ export const allProductsData = [
     ItemImg: Cheesepizza,
     ItemName: 'Cheese Pizza',
     ItemDescription: 'Thick crusted pizza with 2 types of cheese',
-    ItemPrice: (2).toFixed(2),
+    
     Category: 'Western',
     attributes: [
       {
@@ -43,6 +43,7 @@ export const allProductsData = [
         ],
       },
     ],
+    //ItemPrice: (attributes.attributeOptions.price).toFixed(2),
   },
   {
     id: 'chickenalfredopasta',

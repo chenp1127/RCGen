@@ -8,7 +8,7 @@ const Attribute = ({ attribute, handleSelectedAttributes, className, targetAttri
           <li
             key={item.id}
             onClick={() => {
-              handleSelectedAttributes(attribute.id, item.value);
+              handleSelectedAttributes(attribute.id, item.value, item.price);
             }}
             style={
               targetAttribute === item.value

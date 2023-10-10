@@ -4,14 +4,17 @@ import Attribute from "../menu/Attribute";
 import { allProductsData } from "../../data/AllProductsData.js";
 import { Link } from "react-router-dom";
 
+let currPrice = 0;
+
 const SingleItem = ({ handleAddProduct, handleRemoveProduct }) => {
   const [singleProduct, setSingleProduct] = useState([]);
   const [selectedAttributes, setSelectedAttributes] = useState([]);
   const [targetAttribute, setTargetAttribute] = useState('');
 
-  const handleSelectedAttributes = (attributeId, attributeValue) => {
+  const handleSelectedAttributes = (attributeId, attributeValue, attributePrice) => {
     setTargetAttribute(attributeValue);
-    const newSelectedAttribute = { attributeId, attributeValue };
+    currPrice = attributePrice;
+    const newSelectedAttribute = { attributeId, attributeValue, attributePrice };
     setSelectedAttributes(prevAttributes => {
       const existingAttributeIndex = prevAttributes.findIndex(
         attribute => attribute.attributeId === newSelectedAttribute.attributeId
@@ -64,7 +67,7 @@ const SingleItem = ({ handleAddProduct, handleRemoveProduct }) => {
                 <p className="price-num"><span>$</span>{singleProduct.ItemPrice}</p>
               </section>
               :
-              <p className="price-num"><span>$</span>{singleProduct.ItemPrice}</p>
+              <p className="price-num"><span>$</span>{currPrice}</p>
             }
             <AddToCartButton
               handleAddProduct={handleAddProduct}
