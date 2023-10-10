@@ -27,9 +27,9 @@ const RootSection = () => {
       <OurServices />
       <PizzaMenuPreview />
       <MenuPricingPreview />
+      <MenuSlider />
       <Gallery />
       <StatsPreview />
-      <MenuSlider />
       <Newsletter />
       <BlogPreview />
       <ContactLanding />

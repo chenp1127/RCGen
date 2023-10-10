@@ -6,23 +6,23 @@ export const AllCategories = [
     id: "Menu",
   },
   {
-    name: "Pizza",
-    id: "Pizza",
+    name: "Western",
+    id: "Western",
   },
   {
-    name: "Pasta",
-    id: "Pasta",
+    name: "Local",
+    id: "Local",
   },
   {
-    name: "Sushi",
-    id: "Sushi",
+    name: "Indian-muslim",
+    id: "Indian-muslim",
   },
   {
-    name: "Drinks",
-    id: "Drinks",
+    name: "Mediterranean",
+    id: "Mediterranean",
   },
   {
-    name: "Sale",
-    id: "Sale",
+    name: "Asian",
+    id: "Asian",
   },
 ];
