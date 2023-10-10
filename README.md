@@ -1,18 +1,12 @@
-# Pizza Time
+# RCGen
 
-![Pizza Time preview](https://github.com/catherineisonline/pizza-time-with-react/blob/main/src/assets/images/project-preview.png?raw=true)
-
-Pizza Time: A delicious online experience. I designed and developed an e-commerce platform for this pizza restaurant, featuring an interactive menu with a variety of options including pizza, sushi, and pasta. Simplifying the online ordering process and providing a seamless user experience was the key goal of this project.
-
-[![GitHub license](https://img.shields.io/github/license/catherineisonline/pizza-time-with-react)](https://github.com/catherineisonline/travel-with-catherine/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/catherineisonline/pizza-time-with-react)](https://github.com/catherineisonline/travel-with-catherine/issues)
-[![GitHub stars](https://img.shields.io/github/stars/catherineisonline/pizza-time-with-react)](https://github.com/catherineisonline/travel-with-catherine/stargazers)
+RCGen: A delicious online experience. We designed and developed an e-commerce platform for recipe finding and buying ingredients. Simplifying the online ordering process and providing a seamless user experience was the key goal of this project.
 
 Live Version:
 
-[Pizza Time](https://main.d8770hxk753d4.amplifyapp.com/)
+[RCGen](https://main.d8770hxk753d4.amplifyapp.com/)
 
-A e-commerce platform tailored for the gastronomy industry. I led end-to-end design and development, utilizing technologies like React Icons, React Router DOM, React Alice Carousel, Leaflet Maps, React Paginate, UUID, React Lazy Load, and Framer Motion.
+A e-commerce platform tailored for the gastronomy industry. We design and development, utilizing technologies like React Icons, React Router DOM, React Alice Carousel, Leaflet Maps, React Paginate, UUID, React Lazy Load, and Framer Motion.
 
 🍕 Dynamic Culinary Hub:
 Fictional restaurant featuring an extensive menu including pizzas, sushi, and pasta. Used React components like Icons, Router, and Carousel for easy navigation and user interface.
@@ -135,14 +129,5 @@ I want to be able to sort the menu by categories, as well as be able to find som
 - [React Icons](https://react-icons.github.io/react-icons) - Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
 - [PlanetScale](https://planetscale.com/docs/) - serverless MySQL database
 
-## Contribution <a id="contribution"></a>
-
-This project serves as a personal portfolio website to show off my personal skills. I do not accept any contributions like pull requests to this project however if you have any suggestions or ideas feel free to message me, send me a message via a contact form on the website, or submit an idea in the [discussions](https://github.com/catherineisonline/pizza-time-with-react/discussions). Otherwise, you are free to fork this project and change it for your own purposes. 
-
 ## License  <a id="license"></a>
 This project is released under the MIT [LICENSE](https://github.com/catherineisonline/pizza-time-with-react/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
-
-#### Build Your Portfolio:
-Feel free to incorporate this project into your personal portfolio! Showcase your skills and creativity by featuring your adaptations or implementations of this project. Just make sure to follow the guidelines of the MIT License while doing so. At the same time, I do not recommend copy pasting this project into your portoflio and claiming it as your own until you read the code and understand the logic or rewrite it your own logic.
-
-Happy coding!
