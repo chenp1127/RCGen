@@ -10,7 +10,7 @@ const PizzaMenuPreview = () => {
   return (
     <article className="section-4 flex-container flex-column" >
       <section className="section-4-info txt-center">
-        <h2 className="pop-font txt-white">RCGen Recommended Meals</h2>
+        <h2 className="pop-font txt-white">RCGen Recommended Recipes</h2>
         <p className="section-description">
           RCGen provide you a wide range of cusines. You can always puchase the ingredients based on food recipe here!
         </p>
@@ -49,7 +49,7 @@ const PizzaMenuPreview = () => {
         to="/menu"
         className="active-button-style txt-white"
       >
-        More pizza
+        More Recipes
       </Link>
     </article>
 
