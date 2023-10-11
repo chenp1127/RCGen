@@ -37,5 +37,5 @@ const RootSection = () => {
     </React.Fragment>
   );
 }
-
+//<MenuPricingPreview />
 export default RootSection;
