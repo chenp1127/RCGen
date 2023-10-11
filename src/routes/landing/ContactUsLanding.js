@@ -29,11 +29,11 @@ const ContactUsLanding = () => {
       />
       <section className='company-details'>
         <div>
-          <h2>+65 8123 4567</h2>
+          <h2>+65 8888 8888</h2>
           <p>Contact us if you have any questions</p>
         </div>
         <div>
-          <h2>123 Pizza Avenue </h2>
+          <h2>5 Ang Mo Kio Street 62</h2>
           <p>Singapore, Singapore</p>
         </div>
         <div>
