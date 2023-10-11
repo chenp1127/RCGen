@@ -8,7 +8,7 @@ const Refunds = () => {
     return (
         <main className="terms">
             <h2>Refunds</h2>
-            <p>This Refund Policy ("Policy") outlines the terms and conditions for requesting a refund for the Instagram growth services provided by RCGen ("Pizaa Time," "we," "our," or "us"). By using our services, you ("you," "your," or "user") agree to comply with this Policy regarding refund requests.</p>
+            <p>This Refund Policy ("Policy") outlines the terms and conditions for requesting a refund for the Instagram growth services provided by RCGen ("RCGen," "we," "our," or "us"). By using our services, you ("you," "your," or "user") agree to comply with this Policy regarding refund requests.</p>
             {refundsContent.map((content) =>
                 <section key={content.title}>
                     <h3>{content.id}. {content.title}:</h3>
