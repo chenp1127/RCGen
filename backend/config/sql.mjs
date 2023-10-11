@@ -15,9 +15,5 @@ const database = {
 
 const connection = mysql.createConnection(database);
 
-console.log('process.env.DB_HOST: ', process.env.MYSQL_URL)
-console.log('process.env.DB_USER: ', process.env.MYSQL_USER)
-console.log('process.env.DB_PASSWORD: ', process.env.MYSQL_PASSWORD)
-console.log('process.env.DB_DATABASE: ', process.env.MYSQL_DB_NAME)
 export default connection.promise();
 
