@@ -11,7 +11,7 @@ const AboutCollaboration = () => {
         <h2 className="sub-title">Collaboration</h2>
         <h3>Join the business</h3>
         <p>
-          Whether it's catering for a corporate event, providing lunch for a business meeting, or simply offering a delicious meal for employees to enjoy, we are committed to meeting the unique needs of businesses in our area. Our menu features a wide range of options, from classic pizzas and salads to sandwiches and pasta dishes, so you can be sure there's something for everyone to enjoy. Don't forget, Pizza Time is a fictional pizza restaurant made by Ekaterine Mitagvaria.
+        Join our thriving culinary community by becoming a part of our franchise family! At RCGen, we're passionate about sharing delightful recipes and providing easy access to high-quality ingredients. As a franchisee, you'll have the opportunity to bring the joy of cooking to your local community while benefiting from our proven business model. Our comprehensive support, extensive recipe library, and top-notch ingredients make it a breeze to create mouthwatering dishes at home. If you're looking to embark on a delicious and rewarding journey, join us at RCGen in spreading the love for great food. Together, we'll make every meal a memorable experience. 
         </p>
         <Link to="/contact" onClick={ResetLocation} className="active-button-style">Request a call</Link>
       </section>
