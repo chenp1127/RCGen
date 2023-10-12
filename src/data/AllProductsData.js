@@ -29,7 +29,7 @@ export const allProductsData = [
     ItemImg: Cheesepizza,
     ItemName: 'Cheese Pizza',
     ItemDescription: 'Thick crusted pizza with 2 types of cheese',
-    
+    Recipe: '1: Move oven rack to lowest position. Heat oven to 450°. Grease 12-inch pizza pan. Stir baking mix and water until soft dough forms. 2: Pat dough in pizza pan, using fingers dipped in baking mix; pinch edge, forming 1/2-inch rim. Spread pizza sauce over crust. Sprinkle with cheese. 3: Bake 12 to 15 minutes or until crust is brown and cheese is bubbly.',
     Category: 'Western',
     attributes: [
       {
@@ -50,7 +50,9 @@ export const allProductsData = [
     ItemImg: Chickenalfredopasta,
     ItemName: 'Chicken Alfredo Pasta',
     ItemDescription: 'Cream based chicken linguine with herbs',
-    ItemPrice: (2).toFixed(2),
+    Recipe: "1: Melt the butter in a large pan over medium-high heat, then add the chicken breasts. Season with the salt, pepper, oregano, and basil. Cook 8-10 minutes, or until the chicken is fully cooked. Remove the chicken from the pan and set aside. \n2: Make the sauce: In the same pan over medium heat, melt the butter, then add the garlic. Cook until the garlic begins to soften. Stir in half of the flour at a time until incorporated. Gradually pour in the milk, stirring between additions, and cook until fully incorporated and the sauce begins to thicken. Season with the salt, pepper, oregano, and basil. Add the Parmesan cheese and stir until melted. \n3: In a large bowl, pour the sauce over cooked penne pasta, then add the chicken and toss well to combine. Add the parsley and Parmesan and toss again.",
+    CookingTime: '30',
+    //ItemPrice: (2).toFixed(2),
     Category: 'Western',
     attributes: [
       {
