@@ -66,13 +66,14 @@ const Register = ({ activateLoginModal }) => {
     }
     else {
       let currForm = { ...formValue }
+      console.log(currForm);
       if (currForm.repeatPassword.length > 0) {
         delete currForm.repeatPassword;
       }
-      if (currForm.address !== undefined) {
+      if (currForm.address === undefined) {
         delete currForm.address;
       }
-      if (currForm.number !== undefined) {
+      if (currForm.number === undefined) {
         delete currForm.number;
       }
       currForm.email = currForm.email.toLowerCase();

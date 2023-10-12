@@ -1,11 +1,14 @@
-import mysql from 'mysql2';
+import mysql from 'mysql2/promise';
 import dotenv from 'dotenv';
-dotenv.config();
+dotenv.config({ path: '../../.env' });
 
-const database = process.env.REACT_APP_DATABASE_URL;
+const database = {
+    host: process.env.RDS_URL,
+    database: process.env.RDS_DB_NAME,
+    user: process.env.RDS_USER,
+    password: process.env.RDS_PASSWORD,
+};
 
-const connection = mysql.createConnection(database);
+const pool = mysql.createPool(database);
 
-
-export default connection.promise();
-
+export default pool;

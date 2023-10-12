@@ -12,7 +12,8 @@
     "express": "^4.18.2",
     "framer-motion": "^9.0.2",
     "leaflet": "^1.8.0",
-    "mysql2": "^3.6.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.1",
     "node-fetch": "^3.3.2",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.6.4",
@@ -34,7 +35,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "node api/index.mjs"
+    "server": "api/index.mjs"
   },
   "eslintConfig": {
     "extends": [
