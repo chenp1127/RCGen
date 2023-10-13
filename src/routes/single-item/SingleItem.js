@@ -78,9 +78,16 @@ const SingleItem = ({ handleAddProduct, handleRemoveProduct }) => {
               setTargetAttribute={setTargetAttribute}
             />
           </section>
+          
         </section>
       </article>
+      <p className="single-item-recipe single-item flex-container flex-column txt-white">
+        <h2>Recipe</h2>
+        <p>Cooking time: {singleProduct?.CookingTime}mins</p>
+        <p className="single-item-recipe">{singleProduct?.Recipe}</p>
+      </p>
     </main>
+    
   );
 }
 
