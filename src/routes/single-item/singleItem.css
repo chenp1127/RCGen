@@ -67,6 +67,16 @@
     padding: 0.5rem;
 }
 
+.single-item-recipe {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+    flex-wrap: wrap;
+    color: var(--whitish-gray);
+    white-space: pre-wrap;
+}
+
 @media screen and (min-width: 700px) {
     .single-item {
         flex-direction: row;
