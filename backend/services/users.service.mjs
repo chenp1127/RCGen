@@ -1,32 +1,19 @@
 import pool from '../config/sql.mjs';
 
-// export const getUsers = async () => {
-//     const query = 'SELECT * FROM users';
-//     const connection = await pool.getConnection(); // Get a connection from the pool
-
-//     try {
-//         const [rows] = await connection.execute(query);
-//         return rows;
-//     } catch (error) {
-//         throw error;
-//     } finally {
-//         connection.release(); // Release the connection back to the pool when done
-//     }
-// }
-
 export const getUsers = async () => {
     const query = 'SELECT * FROM users';
-    const connection = await pool.getConnection();
+    const connection = await pool.getConnection(); // Get a connection from the pool
 
     try {
         const [rows] = await connection.execute(query);
-        return rows; // Return the array of users
+        return rows;
     } catch (error) {
         throw error;
     } finally {
-        connection.release();
+        connection.release(); // Release the connection back to the pool when done
     }
 }
+
 
 export const getUser = async (id) => {
     const query = 'SELECT * FROM users WHERE id = ?';
