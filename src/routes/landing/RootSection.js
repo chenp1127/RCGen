@@ -5,7 +5,6 @@ import ContactUsLanding from "./ContactUsLanding";
 import WelcomeSection from "./WelcomeSection";
 import OurServices from "./OurServices";
 import PizzaMenuPreview from "./PizzaMenuPreview";
-import MenuPricingPreview from "./MenuPricingPreview";
 import Gallery from "./Gallery";
 import StatsPreview from "./StatsPreview";
 import MenuSlider from "./MenuSlider";
@@ -13,6 +12,7 @@ import BlogPreview from "./BlogPreview";
 import Newsletter from "./Newsletter";
 import ResetLocation from "../../helpers/ResetLocation";
 import ContactLanding from "./ContactLanding";
+// import MenuPricingPreview from "./MenuPricingPreview";
 
 const RootSection = () => {
   useEffect(() => {
@@ -26,7 +26,6 @@ const RootSection = () => {
       <ContactUsLanding />
       <OurServices />
       <PizzaMenuPreview />
-      <MenuPricingPreview />
       <MenuSlider />
       <Gallery />
       <StatsPreview />
