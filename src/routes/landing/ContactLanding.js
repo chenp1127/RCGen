@@ -14,7 +14,7 @@ let DefaultIcon = L.icon({
   shadowUrl: iconShadow,
 });
 L.Marker.prototype.options.icon = DefaultIcon;
-const position = [37.0902, -93.7129];
+const position = [1.389157, 103.843831];
 
 
 const ContactLanding = () => {
@@ -30,7 +30,7 @@ const ContactLanding = () => {
         <MapContainer
           id="map"
           center={position}
-          zoom={9}
+          zoom={15}
           scrollWheelZoom={false}
         >
           <TileLayer
@@ -58,8 +58,8 @@ const ContactLanding = () => {
           <p>Our dedicated customer support team is ready to assist you with any inquiries you may have.</p>
           <ul>
             <li>- Email: support@rcgen.com</li>
-            <li>- Phone: 000 (000) 123 4567</li>
-            <li>- Hours: Monday - Friday, 8:00am - 9:00pm (EST)</li>
+            <li>- Phone: +65 88888888</li>
+            <li>- Hours: Monday - Friday, 8:00am - 9:00pm (SGT)</li>
           </ul>
         </section>
         <section>

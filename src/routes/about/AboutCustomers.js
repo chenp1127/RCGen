@@ -14,7 +14,7 @@ const AboutCustomers = () => {
       </div>
       <section className="content">
         <h2 className="sub-title">Happy Customers</h2>
-        <h3>Over 1 positive feedback</h3>
+        <h3>Over 1k positive feedback</h3>
         <p>
           We believe that our success is due to our commitment to sourcing for high-quality ingredients from our vast supermarket network. Our recipes feature a wide variety of cuisine and time saving hacks for the ordinary working class to embark on your very own health journey.
         </p>

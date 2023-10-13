@@ -61,7 +61,7 @@ const Contact = () => {
   }
   const verifyCaptcha = async (captchaToken) => {
     try {
-      const response = await fetch('https://pizza-time-backend.vercel.app/verify-recaptcha', {
+      const response = await fetch('https://18.141.8.109/verify-recaptcha', {
         method: 'POST',
         body: JSON.stringify({
           secret: process.env.REACT_APP_CAPTCHA_SECRET,
