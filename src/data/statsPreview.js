@@ -3,8 +3,8 @@ const statsPreview = [
         id: 1,
         img:
             'https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/ffffff/external-pizza-fast-food-vitaliy-gorbachev-lineal-vitaly-gorbachev.png',
-        stats: '50',
-        name: 'Pizza Branches',
+        stats: '20',
+        name: 'RCGen Branches',
     },
     {
         id: 2,
