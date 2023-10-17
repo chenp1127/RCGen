@@ -32,7 +32,7 @@ Enabled user registration, login, and profile management. Users modify and delet
 📧 Secure Communication via reCAPTCHA:
 Integrated Google reCAPTCHA to verify contact form users, curbing spam and ensuring secure communication.
 
-Pizza Time brings together delicious food and advanced technology, creating a user-friendly digital experience. It's where great food meets programming, letting users enjoy a convenient and satisfying culinary journey.
+RCGen brings together delicious food and advanced technology, creating a user-friendly digital experience. It's where great food meets programming, letting users enjoy a convenient and satisfying culinary journey.
 
 ## Contents
 
@@ -93,15 +93,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-
-## Goals <a id="goals"></a>
-The main goal of this project is to get better at React and experience what it's like to work on something that feels more like a real project. In the past, I've mostly worked on small pieces of code that didn't do much on their own. With this project, I want to step into different shoes – not just as a coder, but as someone who's building something useful and someone who's going to use it. 
-
-
-## User Story <a id="userStory"></a>
-
-As a user, I want to be able to add items to cart even if I am not logged in/registered. When navigating to the menu page, I want to see menu items that have pictures, name, ingredients, pricing.
-I want to be able to sort the menu by categories, as well as be able to find something specific by writing it in the search bar. I want to be able to add items to cart, indicate the amount or delete the items from the cart. In the cart section, I want to be able to see how much I have to pay total and have the possibility to navigate to payments. Before paying, I want to add a special request to my order, like, "no spicy, please".
 
 ## Used Dependencies <a id="dependencies"></a>
 
