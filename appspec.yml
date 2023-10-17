@@ -5,14 +5,14 @@ files:
     destination: /home/ubuntu/rcgenbackend
 hooks:
   BeforeInstall:
-    - location: scripts/codedeploy_before_install.sh
+    - location: backend/aws_cicd/codedeploy_before_install.sh
       timeout: 300
       runas: ubuntu
   AfterInstall:
-    - location: scripts/codedeploy_after_install.sh
+    - location: backend/aws_cicd/codedeploy_after_install.sh
       timeout: 300
       runas: ubuntu
   ApplicationStart:
-    - location: scripts/codedeploy_application_start.sh
+    - location: backend/aws_cicd/codedeploy_application_start.sh
       timeout: 300
       runas: ubuntu
