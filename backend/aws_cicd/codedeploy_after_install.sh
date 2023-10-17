@@ -1,4 +1,4 @@
 #!/bin/bash
-mkdir /home/ubuntu/my-app1
-cd /home/ubuntu/my-app1
+mkdir /home/ubuntu/rcgenbackend
+cd /home/ubuntu/rcgenbackend
 sudo npm install
