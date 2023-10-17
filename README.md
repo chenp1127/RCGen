@@ -38,8 +38,6 @@ RCGen brings together delicious food and advanced technology, creating a user-fr
 
 - [Getting Started with Create React App](#gettingStarted)
 - [Available Scripts](#scripts)
-- [Goals](#goals)
-- [User Story](#userStory)
 - [Used Dependencies](#dependencies)
 - [Useful Resources](#resources)
 - [Contribution](#contribution)
@@ -118,7 +116,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - [TinyPNG](https://tinypng.com/) - smart lossy compression techniques to reduce the file size of your WEBP, JPEG and PNG files.
 - [React Lazy Load Image Component](https://www.npmjs.com/package/react-lazy-load-image-component) - React Component to lazy load images and other components/elements.
 - [React Icons](https://react-icons.github.io/react-icons) - Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
-- [PlanetScale](https://planetscale.com/docs/) - serverless MySQL database
 
 ## License  <a id="license"></a>
 This project is released under the MIT [LICENSE](https://github.com/catherineisonline/pizza-time-with-react/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
