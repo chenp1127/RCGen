@@ -105,7 +105,7 @@ export const allProductsData = [
     ItemName: 'Fish Bee Hoon Soup',
     ItemDescription:
       'Sliced fish cooked in warm soup with thin rice noodles',
-    ItemPrice: (8).toFixed(2),
+    //ItemPrice: (8).toFixed(2),
     Category: 'Local',
     attributes: [
       {
@@ -185,7 +185,7 @@ export const allProductsData = [
     ItemName: 'Mutton Biryani',
     ItemDescription:
       'Indian basmati rice with braised mutton',
-    ItemPrice: (8).toFixed(2),
+    //ItemPrice: (8).toFixed(2),
     Category: 'Indian-muslim',
     attributes: [
       {
@@ -206,7 +206,7 @@ export const allProductsData = [
     ItemName: 'Nasi Ayam Bakar',
     ItemDescription:
       'Grilled chicken with rice and sweet chili sauce',
-    ItemPrice: (8).toFixed(2),
+    //ItemPrice: (8).toFixed(2),
     Category: 'Indian-muslim',
     attributes: [
       {
@@ -227,7 +227,7 @@ export const allProductsData = [
     ItemName: 'Maggi Goreng',
     ItemDescription:
       'Fried springy noodles with bok choy and chicken',
-    ItemPrice: (8).toFixed(2),
+    //ItemPrice: (8).toFixed(2),
     Category: 'Indian-muslim',
     attributes: [
       {
@@ -250,7 +250,7 @@ export const allProductsData = [
     ItemName: 'Greek Yoghurt Pita',
     ItemDescription:
       'Greek flatbread with chicken slices and yoghurt dressing',
-    ItemPrice: (8).toFixed(2),
+    //ItemPrice: (8).toFixed(2),
     Category: 'Mediterranean',
     attributes: [
       {
@@ -271,7 +271,7 @@ export const allProductsData = [
     ItemName: 'Turkish Beef Kebab',
     ItemDescription:
       'Turkish grilled beef skewers',
-    ItemPrice: (8).toFixed(2),
+    //ItemPrice: (8).toFixed(2),
     Category: 'Mediterranean',
     attributes: [
       {
@@ -295,20 +295,22 @@ export const allProductsData = [
     ItemName: 'Kimchi Jiggae',
     ItemDescription:
       'Korean kimchi stew served with tofu and onion',
-    ItemPrice: (8).toFixed(2),
+    //ItemPrice: (0).toFixed(2),
     Category: 'Asian',
     attributes: [
       {
         id: 'ingredients',
         name: 'ingredients',
         attributeOptions: [
-          { id: 'kimchi', value: 'kimchi', price: '1.5' },
-          { id: 'tofu', value: 'tofu', price: '0.5' },
-          { id: 'onion', value: 'onion', price: '0.5' },
-          { id: 'glass noodles', value: 'glass noodles', price: '0.8' },
+          { id: 'kimchi', value: 'kimchi', price: 1.5 },
+          { id: 'tofu', value: 'tofu', price: 0.5 },
+          { id: 'onion', value: 'onion', price: 0.5 },
+          { id: 'glass noodles', value: 'glass noodles', price: 0.8 },
         ],
+        //selectedAttribute: null,
       },
     ],
+    ItemPrice: 0.00,
   },
   {
     id: 'tempuraprawnsoba',
@@ -316,7 +318,7 @@ export const allProductsData = [
     ItemName: 'Tempura Prawn Soba',
     ItemDescription:
       'Cold buckweed noodles with deep fried prawn',
-    ItemPrice: (8).toFixed(2),
+    //ItemPrice: (8).toFixed(2),
     Category: 'Asian',
     attributes: [
       {
@@ -337,7 +339,7 @@ export const allProductsData = [
     ItemName: 'Cong You Bing',
     ItemDescription:
       'Fried scallion pancakes chinese style',
-    ItemPrice: (8).toFixed(2),
+    //ItemPrice: (8).toFixed(2),
     Category: 'Asian',
     attributes: [
       {
