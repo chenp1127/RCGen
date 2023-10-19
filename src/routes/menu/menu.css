@@ -182,6 +182,8 @@ input[type="search"]::-webkit-search-results-decoration {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-basis: auto;
+  flex-wrap: wrap;
 }
 
 .menu-grid-item .attributes li {

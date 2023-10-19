@@ -1,127 +1,97 @@
-//375
-import pizzaOne375 from '../assets/images/menu-slider/pizza-one-375.webp'
-import pizzaTwo375 from '../assets/images/menu-slider/pizza-two-375.webp'
-import pizzaThree375 from '../assets/images/menu-slider/pizza-three-375.webp'
-import SalmonPoke375 from '../assets/images/menu-slider/sushi-one-375.webp'
-import VeggiePoke375 from '../assets/images/menu-slider/sushi-two-375.webp'
-import MiniSalmon375 from '../assets/images/menu-slider/sushi-three-375.webp'
-import ChickenAlfredo375 from '../assets/images/menu-slider/pasta-one-375.webp'
-import AllaGricia375 from '../assets/images/menu-slider/pasta-two-375.webp'
-import SheetPan375 from '../assets/images/menu-slider/pasta-three-375.webp'
-//700
-import pizzaOne700 from '../assets/images/menu-slider/pizza-one-700.webp'
-import pizzaTwo700 from '../assets/images/menu-slider/pizza-two-700.webp'
-import pizzaThree700 from '../assets/images/menu-slider/pizza-three-700.webp'
-import SalmonPoke700 from '../assets/images/menu-slider/sushi-one-700.webp'
-import VeggiePoke700 from '../assets/images/menu-slider/sushi-two-700.webp'
-import MiniSalmon700 from '../assets/images/menu-slider/sushi-three-700.webp'
-import ChickenAlfredo700 from '../assets/images/menu-slider/pasta-one-700.webp'
-import AllaGricia700 from '../assets/images/menu-slider/pasta-two-700.webp'
-import SheetPan700 from '../assets/images/menu-slider/pasta-three-700.webp'
+//western
+import Cheesepizza from '../assets/images/western/cheesepizza.jpg'
+import Chickenalfredopasta from '../assets/images/western/chickenalfredopasta.jpeg'
+import Caesarsalad from '../assets/images/western/caesarsalad.jfif'
+
+//local
+import Charkwayteow from '../assets/images/local/charkwayteow.jfif'
+import Sweetandsourpork from '../assets/images/local/sweetandsourpork.jfif'
+import Fishbeehoonsoup from '../assets/images/local/fishbeehoonsoup.jpg'
+
+//indianmuslim
+import Muttonbiryani from '../assets/images/indian/muttonbiryani.jpg'
+import Nasiayambakar  from '../assets/images/indian/nasiayambakar.jfif'
+import Maggigoreng from '../assets/images/indian/maggigoreng.jfif'
+
 
 const menuSliderCategories = [
     {
-        name: 'pizza',
-        id: 'pizza',
+        name: 'western',
+        id: 'western',
     },
     {
-        name: 'sushi',
-        id: 'sushi',
+        name: 'local',
+        id: 'local',
     },
     {
-        name: 'pasta',
-        id: 'pasta',
+        name: 'indian-muslim',
+        id: 'indian-muslim',
     },
 ]
 const menuSliderProducts = [
     {
-        id: 'pepperoni-pizza',
-        name: 'Pepperoni Pizza',
-        describtion:
-            'Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.',
-        price: (5).toFixed(2),
-        img375: pizzaOne375,
-        img700: pizzaOne700,
-        category: 'pizza',
-    },
-    {
-        id: 'bbq-chicken-pizza',
-        name: 'BBQ Chicken Pizza',
-        describtion:
-            'Rotisserie chicken, pizza dough, bbq sauce, smoked cheddar cheese, mozzarella cheese.',
-        price: (10).toFixed(2),
-        img375: pizzaTwo375,
-        img700: pizzaTwo700,
-        category: 'pizza',
-    },
-    {
         id: 'cheese-pizza',
-        name: 'Cheese Pizza',
-        describtion: 'Pizza dough, pizza sauce, provolone cheese, mozzarella.',
-        price: (5).toFixed(2),
-        img375: pizzaThree375,
-        img700: pizzaThree700,
-        category: 'pizza',
+        ItemImg: Cheesepizza,
+        ItemName: 'Cheese Pizza',
+        ItemDescription: 'Thick crusted pizza with 3 types of cheese',
+        category: 'western',
     },
     {
-        id: 'salmon-poke',
-        img375: SalmonPoke375,
-        img700: SalmonPoke700,
-        name: 'Salmon Poke',
-        describtion:
-            'Salmon, Avocado, Rice, Cabbage, Carrots, Creen onions, Sesame.',
-        price: (10).toFixed(2),
-        category: 'sushi',
+        id: 'chickenalfredopasta',
+        ItemImg: Chickenalfredopasta,
+        ItemName: 'Chicken Alfredo Pasta',
+        ItemDescription: 'Cream based chicken linguine with herbs',
+        category: 'western',
+    },
+    {
+        id: 'caesarsalad',
+        ItemImg: Caesarsalad,
+        ItemName: 'Caesar Salad',
+        ItemDescription: 'Green salad served with croutons and parmesan',
+        category: 'western',
+    },
+    {
+        id: 'fishbeehoonsoup',
+        ItemImg: Fishbeehoonsoup,
+        ItemName: 'Fish Bee Hoon Soup',
+        ItemDescription: 'Sliced fish cooked in warm soup with thin rice noodles',
+        category: 'local',
     },
 
     {
-        id: 'veggie-poke',
-        img375: VeggiePoke375,
-        img700: VeggiePoke700,
-        name: 'Veggie Poke',
-        describtion: 'Rice, Avocado, Cabage, Carrot, Ginger, Green Onion, Sesam.',
-        price: (8).toFixed(2),
-        category: 'sushi',
+        id: 'sweetandsourpork',
+        ItemImg: Sweetandsourpork,
+        ItemName: 'Sweet and Sour Pork',
+        ItemDescription: 'Fried pork cubes glazed with tangy tomato based sauce',
+        category: 'local',
     },
     {
-        id: 'mini-salmon-set-22-pcs',
-        img375: MiniSalmon375,
-        img700: MiniSalmon700,
-        name: 'Mini Salmon Set',
-        describtion:
-            'Double Salmon Roll,Californication, Salmon Nigiri - 2Pcs, Eel Nigiri - 2Pcs,Vulcan Gunkan - 2Pcs',
-        price: (35).toFixed(2),
-        category: 'sushi',
+        id: 'charkwayteow',
+        ItemImg: Charkwayteow,
+        ItemName: 'Char Kway Teow',
+        ItemDescription: 'Fried thick noodles in dark sauce with prawns and crunchy beansprouts',
+        category: 'local',
     },
     {
-        id: 'chicken-alfredo',
-        img375: ChickenAlfredo375,
-        img700: ChickenAlfredo700,
-        name: 'Chicken Alfredo',
-        describtion:
-            'Skinless chicken breast, heavy cream, olive oil, parmigiano reggiano, black pepper.',
-        price: (2).toFixed(2),
-        category: 'pasta',
+        id: 'muttonbiryani',
+        ItemImg: Muttonbiryani,
+        ItemName: 'Mutton Biryani',
+        ItemDescription: 'Indian basmati rice in fragrant herbs paired with braised mutton',
+        category: 'indian-muslim',
     },
     {
-        id: 'pasta-alla-gricia',
-        img375: AllaGricia375,
-        img700: AllaGricia700,
-        name: 'Pasta Alla Gricia',
-        describtion:
-            'Rigatoni pasta, pancetta, olive oil, pecorino romano, black pepper.',
-        price: (9).toFixed(2),
-        category: 'pasta',
+        id: 'nasiayambakar',
+        ItemImg: Nasiayambakar,
+        ItemName: 'Nasi Ayam Bakar',
+        ItemDescription: 'Grilled chicken with coconut rice and sweet chili sauce',
+        category: 'indian-muslim',
     },
     {
-        id: 'sheet-pan-burrata-caprese-gnocchi',
-        img375: SheetPan375,
-        img700: SheetPan700,
-        name: 'Burrata Caprese Gnocchi',
-        describtion:
-            'Penne pasta, sour cream, rotisserie chicken, cherry tomatoes, curly kale.',
-        price: (5).toFixed(2),
-        category: 'pasta',
+        id: 'maggigoreng',
+        ItemImg: Maggigoreng ,
+        ItemName: 'Maggi Goreng',
+        ItemDescription: 'Fried springy noodles with bok choy and chicken',
+        category: 'indian-muslim',
     },
 ]
 

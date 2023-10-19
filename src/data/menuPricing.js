@@ -46,7 +46,7 @@ const menuPricing = [
         id: 5,
         img375: imgFive375,
         name: 'Margherita Pizza',
-        price: 8.0,
+        price: 20.0,
         currency: '$',
         description:
             'This margherita pizza recipe tastes like a woodfired pie from Italy! It stars a flavor-popping pizza sauce and perfectly chewy pizza crust.',

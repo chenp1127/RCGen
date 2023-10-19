@@ -329,12 +329,25 @@ function App() {
   };
 
   const getTotalPrice = (cartItems) => {
-    let total = cartItems.reduce((prevState, currentItem) => {
-      const singleItemQuantity = currentItem.ItemPrice * currentItem.quantity;
-      return prevState + singleItemQuantity;
-    }, 0);
-    setTotalPayment(total.toFixed(2));
-    setTaxes(((total * 10) / 100).toFixed(2));
+    let total = 0;
+  
+    cartItems.forEach((cartItem) => {
+      const itemTotalPrice = cartItem.userSelectedAttributes.reduce((subtotal, attribute) => {
+        const attributeGroup = cartItem.attributes.find(attr => attr.id === attribute.attributeId);
+        const selectedOption = attributeGroup.attributeOptions.find(option => option.id === attribute.attributeValue);
+        const attributePrice = selectedOption ? selectedOption.price : 0;
+        return subtotal + attributePrice;
+      }, 0) * cartItem.quantity;
+  
+      total += itemTotalPrice;
+    });
+  
+    const taxes = ((total * 10) / 100).toFixed(2);
+    const totalPayment = (parseFloat(total) + parseFloat(taxes)).toFixed(2);
+  
+    setTotalPayment(totalPayment);
+    setTaxes(taxes);
+    return totalPayment;
   };
 
   const successMsg = () => {
