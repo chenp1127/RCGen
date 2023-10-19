@@ -9,7 +9,7 @@ Live Version:
 A e-commerce platform tailored for the gastronomy industry. We design and development, utilizing technologies like React Icons, React Router DOM, React Alice Carousel, Leaflet Maps, React Paginate, UUID, React Lazy Load, and Framer Motion.
 
 🍕 Dynamic Culinary Hub:
-Fictional restaurant featuring an extensive menu including pizzas, sushi, and pasta. Used React components like Icons, Router, and Carousel for easy navigation and user interface.
+Used React components like Icons, Router, and Carousel for easy navigation and user interface.
 
 📍 Spatial Awareness with Leaflet Maps:
 Used Leaflet Maps API to provide geographical insights, enhancing user interaction and store location understanding.
@@ -116,6 +116,3 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - [TinyPNG](https://tinypng.com/) - smart lossy compression techniques to reduce the file size of your WEBP, JPEG and PNG files.
 - [React Lazy Load Image Component](https://www.npmjs.com/package/react-lazy-load-image-component) - React Component to lazy load images and other components/elements.
 - [React Icons](https://react-icons.github.io/react-icons) - Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
-
-## License  <a id="license"></a>
-This project is released under the MIT [LICENSE](https://github.com/catherineisonline/pizza-time-with-react/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.
