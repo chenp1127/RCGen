@@ -41,7 +41,6 @@ RCGen brings together delicious food and advanced technology, creating a user-fr
 - [Used Dependencies](#dependencies)
 - [Useful Resources](#resources)
 - [Contribution](#contribution)
-- [License](#license)
 
 ## Getting Started with Create React App <a id="gettingStarted"></a>
 
