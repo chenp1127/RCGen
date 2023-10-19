@@ -618,6 +618,9 @@ header {
   height: auto;
   overflow: hidden;
 }
+.section-8 .active-button-style {
+  margin: 0 auto;
+}
 /* Hero Video */
 .hero-section {
   height: 38rem;
