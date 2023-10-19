@@ -28,7 +28,7 @@ export const allProductsData = [
     id: 'cheese-pizza',
     ItemImg: Cheesepizza,
     ItemName: 'Cheese Pizza',
-    ItemDescription: 'Thick crusted pizza with 2 types of cheese',
+    ItemDescription: 'Thick crusted pizza with 3 types of cheese',
     Recipe: "1.  Grease 12-inch pizza pan. Stir pizza dough baking mix and water until soft dough forms."
           + "\n2.  Add in yeast to the dough mixture and let it rise for about 10 minutes."
           + "\n3.  Pat dough mixture in pizza pan, using fingers dipped in water; pinch edge, forming 1/2-inch rim. Spread pizza sauce over crust. Sprinkle with provolone and mozerella cheese."
@@ -181,7 +181,7 @@ export const allProductsData = [
     ItemImg: Charkwayteow,
     ItemName: 'Char Kway Teow',
     ItemDescription:
-      'Fried thick noodles local style',
+      'Fried thick noodles in dark sauce with prawns and crunchy beansprouts',
     //ItemPrice: (8).toFixed(2),
     Recipe: "1.  Heat lard and 1 tbsp oil in a wok or very large heavy based skillet over high heat. Swirl around the wok."
           + "\n2.  When it starts smoking, add prawns. Cook for 30 seconds. Add garlic, stir for 10 seconds."
@@ -213,7 +213,7 @@ export const allProductsData = [
     ItemImg: Muttonbiryani,
     ItemName: 'Mutton Biryani',
     ItemDescription:
-      'Indian basmati rice with braised mutton',
+      'Indian basmati rice in fragrant herbs paired with braised mutton',
     Recipe: "1.  Heat oil in a pan. Add in sliced onions and fry onions till golden brown. Set aside the fried onion and onion oil."
           + "\n2.  Use onion oil and indian spcies to marinate mutton, together with masala powder and chili."
           + "\n3.  Cook the basmati rice with tumeric powder and coconut milk until it is 50% cook."

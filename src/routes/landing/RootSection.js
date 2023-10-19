@@ -4,7 +4,7 @@ import ScrollButton from "../../helpers/ScrollBtn";
 import ContactUsLanding from "./ContactUsLanding";
 import WelcomeSection from "./WelcomeSection";
 import OurServices from "./OurServices";
-import PizzaMenuPreview from "./PizzaMenuPreview";
+//import PizzaMenuPreview from "./PizzaMenuPreview";
 import Gallery from "./Gallery";
 import StatsPreview from "./StatsPreview";
 import MenuSlider from "./MenuSlider";
@@ -25,7 +25,6 @@ const RootSection = () => {
       <WelcomeSection />
       <ContactUsLanding />
       <OurServices />
-      <PizzaMenuPreview />
       <MenuSlider />
       <Gallery />
       <StatsPreview />

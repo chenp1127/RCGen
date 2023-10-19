@@ -2,19 +2,17 @@ import React from 'react'
 import { motion } from "framer-motion";
 import MenuSliderProducts from './MenuSliderProducts'
 import MenuSliderCategories from './MenuSliderCategories'
-import MenuSlide375 from '../../assets/images/section-eight/section-eight-375.webp'
-import MenuSlide700 from '../../assets/images/section-eight/section-eight-700.webp'
-import MenuSlide900 from '../../assets/images/section-eight/section-eight-900.webp'
-import MenuSlide1440 from '../../assets/images/section-eight/section-eight-1440.webp'
+import Homecook from '../../assets/images/homecook.jpeg'
 import { menuSliderCategories, menuSliderProducts } from '../../data/menuSliderContent';
-
+import { Link } from 'react-router-dom'
+import ResetLocation from '../../helpers/ResetLocation'
 
 
 export default class MenuSlider extends React.Component {
   constructor() {
     super()
     this.state = {
-      activeCategory: 'pizza',
+      activeCategory: 'western',
       allProducts: [],
       allCategories: [],
     }
@@ -114,10 +112,8 @@ export default class MenuSlider extends React.Component {
         >
           <img
             className="menu-slider-hero"
-            src={MenuSlide375}
-            srcSet={`${MenuSlide1440} 1440w, ${MenuSlide900} 900w, ${MenuSlide700} 700w, ${MenuSlide375} 375w`}
-            sizes="(min-width: 1440px) 1440px, (min-width: 900px) 900px, (min-width: 700px) 700px, 375px"
-            alt="restaurant interior"
+            src={Homecook}
+            alt={'Home Cook'}
           />
           <section className="dish-slider  flex-container flex-column txt-center">
             <section className="dish-categories flex-container flex-column">
@@ -140,9 +136,19 @@ export default class MenuSlider extends React.Component {
                   />
                 )
               })}
+              <Link
+              onClick={ResetLocation}
+              to="/menu"
+              className="active-button-style txt-white"
+              >
+                More Recipes
+              </Link>
             </section>
+            
           </section>
+          
         </motion.div>
+        
       </article>
     )
   }
