@@ -118,11 +118,13 @@ export const allProductsData = [
     ItemName: 'Fish Bee Hoon Soup',
     ItemDescription:
       'Sliced fish cooked in warm soup with thin rice noodles',
+
     Recipe: "1.  Add oil to a pot and let it heat a bit. Add the ginger, lemongrass and sauté for few sec. Add chopped fish and continue to sauté for few mins."
           + "\n2.  Pour in rice wine and water and bring it to a boil. Add bok choy, tomato and tofu and cook the soup."
           + "\n3.  Add the bee hoon into the soup and cook for 2-3 minutes, or until bee hoon turns soft. Garnish with scallions and it is ready to serve.",
     //ItemPrice: (8).toFixed(2),
     CookingTime: '15',
+
     Category: 'Local',
     attributes: [
       {
@@ -213,6 +215,7 @@ export const allProductsData = [
     ItemImg: Muttonbiryani,
     ItemName: 'Mutton Biryani',
     ItemDescription:
+
       'Indian basmati rice in fragrant herbs paired with braised mutton',
     Recipe: "1.  Heat oil in a pan. Add in sliced onions and fry onions till golden brown. Set aside the fried onion and onion oil."
           + "\n2.  Use onion oil and indian spcies to marinate mutton, together with masala powder and chili."
@@ -220,6 +223,7 @@ export const allProductsData = [
           + "\n4.  Add the marinated mutton into the pot and mix evenly. Top with fried onions and parsley."
           + "\n5.  Once the time is up, remove the biryani from heat and set aside for 10 mins. Open the lid, fluff up the rice. Serve hot.",
     CookingTime: '45',
+
     //ItemPrice: (8).toFixed(2),
     Category: 'Indian-muslim',
     attributes: [
@@ -246,10 +250,12 @@ export const allProductsData = [
     ItemName: 'Nasi Ayam Bakar',
     ItemDescription:
       'Grilled chicken with rice and sweet chili sauce',
+
       Recipe: "1.  Preheat a large pot with cooking oil. Add garlic and stir fry for 30 seconds. Add the chicken pieces and continue to stir until the chicken turn opaque and cooked through. Dish the chicken out and set aside."
             + "\n2.  In the same pot, add in lemongrass and stir fry until fragrant. Add rice and pour in the coconut milk. Bring to a gentle simmer and cover the pot and let it cook for the next 20 minutes. Turn off heat, and let it sit for another 10 minutes. Uncover and check on the rice. It should be fluffy and cooked through."
             + "\n3.  Serve chicken with sambal sauce and add banana leaves for extra fragrance.",
     CookingTime: '50',
+
     //ItemPrice: (8).toFixed(2),
     Category: 'Indian-muslim',
     attributes: [
@@ -276,10 +282,12 @@ export const allProductsData = [
     ItemDescription:
       'Fried springy noodles with bok choy and chicken',
     //ItemPrice: (8).toFixed(2),
+
     Recipe: "1.  Heat oil, break in eggs, scramble, remove and keep aside. In the same oil. saute shallots and garlic. Add curry powder and quickly stir."
           + "\n2.  Pour in sweet and light soy sauce. Stir; add maggi mee, Maggi seasoning (from mee packet), onions and bok choy."
           + "\n3.  Quickly stir over high heat for 2 to 3 minutes. Dish out and serve with calamansi lime, cucumber and chilli padi slices.",
     CookingTime: '10',
+
     Category: 'Indian-muslim',
     attributes: [
       {
@@ -306,6 +314,7 @@ export const allProductsData = [
     ItemName: 'Greek Yoghurt Pita',
     ItemDescription:
       'Greek flatbread with chicken slices and yoghurt dressing',
+
     Recipe: "1.  In a medium sized bowl add the greek yogurt. Gradually add in the flour. Mix after each addition. When a dough ball starts to form turn the dough out onto a work surface (ex. clean kitchen counter)."
           + "\n2.  Knead the dough for 5 – 10 minutes or until a smooth elastic dough forms. Shape the dough into a circle and place back in the bowl. Cover with a lint free towel or plastic wrap. Let the dough rest for 15 minutes."
           + "\n3.  Roll the dough out into a long and slice into 5 – 6 even pieces. Roll out each piece into a thin pita shape. Note: the dough will puff up while cooking so roll it out as thin as possible."
@@ -313,6 +322,7 @@ export const allProductsData = [
           + "\n5.  Pan fry chicken and season with rosemary and dill. After chicken is fully cooked, add in greek yoghurt and freshly squeexed lemon juice as dressing."
           + "\n6.  Wrap chicken with pita bread and garnish with chopped olives, diced tomatoes and lettuce. Sprinkle parmesan cheese.",
     CookingTime: '35',
+
     //ItemPrice: (8).toFixed(2),
     Category: 'Mediterranean',
     attributes: [
@@ -340,12 +350,14 @@ export const allProductsData = [
     ItemName: 'Turkish Beef Kebab',
     ItemDescription:
       'Turkish grilled beef skewers',
+
     Recipe: "1.  Cut beef into 3/4-inch cubes. In a bowl, marinate beef with 1 tablespoon oil, cumin and pepper."
           + "\n2.  Rinse capsicum and remove seeds and ribs. Cut into 2-cm (3/4-inch) wide pieces. Chop onions to similar size pieces."
           + "\n3.  Thread beef cubes onto wooden skewers, with alternating pieces of capsicums and onions."
           + "\n4.  Heat 1 tablespoon oil in a roasting pan over low heat. Sauté onions and garlic until softened, about 4 minutes."
           + "\n5.  Use oil to coat grill pan and cook until skewers until browned, about 1 minute per side.",
     CookingTime: '20',
+
     //ItemPrice: (8).toFixed(2),
     Category: 'Mediterranean',
     attributes: [
@@ -374,12 +386,14 @@ export const allProductsData = [
     ItemName: 'Kimchi Jiggae',
     ItemDescription:
       'Korean kimchi stew served with tofu and onion',
+
     Recipe: "1.  Put the anchovies, radish, onions, and dried kelp in a sauce pan. Add the water and boil for 20 minutes over medium high heat. Lower the heat to low for another 5 minutes. Strain."
           + "\n2.  Place the kimchi and kimchi brine in a shallow pot. Add pork and onion. Add anchovy stock and chili padi and bring the soup to a boil. Cover and cook for 10 minutes over medium high heat."
           + "\n3.  Open and mix in the seasonings with a spoon. Lay the tofu over top. Cover and cook another 5 to 10 minutes over medium heat."
           + "\n4.  Add glass noodles and let the stew simmer for about 5 minutes. Garnish with scallions and serve hot.",
     CookingTime: '50',
     //ItemPrice: (8).toFixed(2),
+
     Category: 'Asian',
     attributes: [
       {
@@ -397,8 +411,10 @@ export const allProductsData = [
           { id: 'chili padi', value: 'chili padi', price: '0.3'},
           { id: 'scallions', value: 'scallions', price: '0.2'},
         ],
+        //selectedAttribute: null,
       },
     ],
+    ItemPrice: 0.00,
   },
   {
     id: 'tempuraprawnsoba',
@@ -406,6 +422,7 @@ export const allProductsData = [
     ItemName: 'Tempura Prawn Soba',
     ItemDescription:
       'Cold buckweed noodles with deep fried prawn',
+
     Recipe: "1.  To make the sauce, add ¼ cup sake to a medium saucepan and bring it to a boil over medium-high heat. Let the alcohol evaporate for a few seconds. Add ½ cup soy sauce and ½ cup mirin. Add 1 piece of dried kelp and 1 cup dried bonito flakes. Bring it to a boil and simmer on low heat for 5 minutes. Turn off the heat and let it cool completely. Strain the residue."
           + "\n2.  Boil water in a medium pot. Add dried buckwheat noodles to the boiling water, distributing them around the pot in a circular pattern to separate the noodles from each other. Stir the noodles occasionally so they do not stick to each other."
           + "\n3.  Drain the soba noodles in a sieve and rinse them under cold running water with your hands to get rid of the excess starch and prevent them from sticking to each other. Then, transfer the noodles to a large bowl of iced water. Chill the noodles for 30 seconds, drain well, and set aside."
@@ -415,6 +432,7 @@ export const allProductsData = [
           + "\n7.  Serve the cold soba noodles with the cold dipping sauce and prawn tempura on the side.",
     //ItemPrice: (8).toFixed(2),
     CookingTime: '25',
+
     Category: 'Asian',
     attributes: [
       {
@@ -441,6 +459,7 @@ export const allProductsData = [
     ItemName: 'Cong You Bing',
     ItemDescription:
       'Fried scallion pancakes chinese style',
+
     Recipe: "1.  In a bowl, stir and mix flour and hot water with chopsticks until there is no more loose flour. Then combine by hand to form a rough-looking dough. Cover the dough tightly with a piece of cling film. This is to prevent the moisture from evaporating since it is a warm dough. Leave to rest for 15 minutes."
           + "\n2.  While waiting for the dough to rest, prepare the filling ingredients. Chop scallions into fine pieces. In a small bowl, mix oil with a little flour, five spice powder, cumin and szechuan pepper to make the filling mixture."
           + "\n3.  With a rolling pin, press the dough, then gently push it in all directions to flatten it into a thin rectangle piece. Use the back of a spoon or a brush to evenly spread the filling mixture over the dough. Sprinkle the chopped scallions on top."
@@ -448,6 +467,7 @@ export const allProductsData = [
           + "\n5.  Pan fry the pancakes, by heating oil in a frying pan/skillet over high heat until hot. Put in the pancake, and adjust to medium-high heat. Then cover the pan with a tight lid."
           + "\n6.  When the first side becomes golden brown, flip over to cook the other side. Remember to always keep the cover on to prevent the pancakes from losing moisture. Pancakes are done if both sides reaches even golden brown consistency. Serve immediately.",
     CookingTime: '25',
+
     //ItemPrice: (8).toFixed(2),
     Category: 'Asian',
     attributes: [
