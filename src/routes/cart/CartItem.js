@@ -1,6 +1,7 @@
 import React from "react";
 import ChangeItemQuantity from "./ChangeItemQuantity";
 import { allProductsData } from "../../data/AllProductsData";
+//import CheckoutItem from "../checkout/CheckoutItem";
 
 const CartItem = ({
   handleAddProduct,
@@ -46,6 +47,7 @@ const CartItem = ({
                 <p className="cart-item-price">${totalPrice.toFixed(2)}</p>
               </section>
             </section>
+            
           </section>
         );
       })}
@@ -53,6 +55,7 @@ const CartItem = ({
         remove all items from the cart
       </button>
       {cartTotals}
+      
     </React.Fragment>
   );
 };
