@@ -2,15 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from "framer-motion";
 import ResetLocation from '../../helpers/ResetLocation'
-import blogPreview from '../../data/blogPreview';
+import blogPreview from '../../data/blogPreviewData';
 
 
 export default class BlogPreview extends React.Component {
   render() {
     return (
-      <motion.div className="section-9 flex-container flex-column"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+      <motion.div className="section-9-container"
+        initial={{ opacity: 0, translateX: -300 }}
+        whileInView={{ opacity: 1, translateX: 0 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 2 }}
       >
@@ -33,7 +33,9 @@ export default class BlogPreview extends React.Component {
                 // sizes="(min-width: 700px) 700px, 375px"
                 alt={post.name}
               />
-              <p className="date">June 27, 2023</p>
+              <p className="date">
+                {post.date}
+              </p>
               <Link onClick={ResetLocation} to={`/blog/${post.name.toLowerCase().replaceAll(' ', '-')}`}>
                 <h3 className="pop-font txt-white">{post.name}</h3>
               </Link>
