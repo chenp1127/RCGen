@@ -1,357 +1,425 @@
 //use as newsletter for website
 
-import Img1 from "../assets/images/blog/post-1.jpeg";
-import Img2 from "../assets/images/blog/post-2.jpeg";
-import Img3 from "../assets/images/blog/post-3.jpeg";
-import Img4 from "../assets/images/blog/post-4.jpeg";
-import Img5 from "../assets/images/blog/post-5.jpeg";
-import Img6 from "../assets/images/blog/post-6.jpeg";
-import Img7 from "../assets/images/blog/post-7.jpeg";
-import Img8 from "../assets/images/blog/post-8.jpeg";
-import Img9 from "../assets/images/blog/post-9.jpeg";
-import Img10 from "../assets/images/blog/post-10.jpeg";
+import mealprep from "../assets/images/blog/mealprep.jpg";
+import nuts from "../assets/images/blog/nuts.jfif";
+import superfoods from "../assets/images/blog/superfoods.jpg";
+import teenager from "../assets/images/blog/teenager.jpg";
+import pyramid from "../assets/images/blog/pyramid.jpg";
+import salt from "../assets/images/blog/salt.jpg";
+import bonehealth from "../assets/images/blog/bonehealth.jpg";
+import onthego from "../assets/images/blog/onthego.jpg";
 
 const allBlogPosts = [
   {
-    img: Img1,
-    name: "Pizza crust types",
+    img: mealprep,
+    name: "7 Benefits Of Meal Prepping",
     intro:
-      "Embark on a culinary adventure as we explore these delectable pizza crusts, each contributing its own character to the beloved dish we all know and love",
+      "Meal prepping can make your week so much easier in so many ways. Here are seven reasons why you may want to consider meal prepping:",
     date: "July 12, 2023",
-    author: "Daniel Wilson",
-    id: 1,
+    author: "Chakell Wardleigh",
+    id: mealprep,
     content:
-      `When it comes to pizza, the crust is more than just a vessel for toppings – it's a canvas that can influence the entire dining experience. From thin and crispy to thick and doughy, pizza crusts come in a variety of types, each with its own unique characteristics and regional influences. Join us as we dive into the delightful world of pizza crusts and explore the different types that have captured the hearts and taste buds of pizza enthusiasts around the globe.
-
-      1. Thin and Crispy: A Classic Delight
-      Thin crust pizza is a time-honored favorite, known for its delicate crunch and ability to showcase the flavors of the toppings. This type of crust is rolled out thinly, creating a light and airy base that allows the cheese, sauce, and toppings to shine. Originating from places like New York and Italy, thin crust pizza is perfect for those who crave a balance between the toppings and the crust.
+      `1. You’ll Save Time
+      Instead of wasting time trying to figure out what to cook, or whether you should order takeout, meal prepping assures that you always have a little meal waiting patiently for you on your lunch break or when you arrive home. And, don’t forget the most important factor: Meal prepping means fewer dishes.
       
-      2. Neapolitan: The Authentic Italian Experience
-      Hailing from Naples, Italy, the Neapolitan pizza crust is all about tradition. This crust is thin, soft, and slightly chewy, typically featuring a simple yet flavorful combination of San Marzano tomatoes, mozzarella cheese, fresh basil, and olive oil. Baked in wood-fired ovens at high temperatures, Neapolitan pizza crusts boast those irresistible charred spots that add to their rustic charm.
+      2. You’ll Have More Dough In Your Pocket
+      Eating healthy tends to get a bad reputation for being overly expensive. But meal prepping saves money because you can buy ingredients in bulk, freeze extra food for later, and most importantly, spend less money eating out.
       
-      3. Deep-Dish: A Hearty Indulgence
-      For those who prefer a more substantial bite, deep-dish pizza crusts offer a hearty and satisfying experience. Originating from Chicago, these crusts are thick, buttery, and often pan-baked to create a golden-brown outer layer. The depth of the crust provides ample space for layers of cheese, sauce, and various toppings, making every bite a delicious journey through flavor and texture.
+      Related: 6 Ideas to Make Meal Prep Easier
       
-      4. Stuffed Crust: A Surprise Inside
-      Stuffed crust pizza is a delightful twist on the traditional. Here, the crust is stuffed with cheese or other fillings, transforming the outer edge into a gooey, cheesy surprise. This playful style of pizza crust adds an extra layer of indulgence, ensuring that the last bite is as delicious as the first.
+      3. You Can Better Manage Your Portion Sizes
+      It’s simple really. Restaurants tend to give us more than the suggested portion size. So many people are overeating each day and consuming more calories than necessary to maintain a healthy diet. When you prepare your own food, you’re able to control your portions, and you know exactly what ingredients you’re putting in your body. Because of this, meal prepping has become the new go-to habit for reaching your weight goals.
       
-      5. Whole Wheat and Gluten-Free: Catering to Dietary Needs
-      As dietary preferences evolve, so do pizza crust options. Whole wheat and gluten-free crusts cater to those seeking healthier alternatives or with dietary restrictions. Whole wheat crusts offer a nutty flavor and added fiber, while gluten-free crusts, often made from ingredients like rice flour or cauliflower, allow everyone to enjoy the joy of pizza without compromising their dietary needs.
+      4. You Might Lower Your Stress Levels
+      Figuring out what to make for dinner may seem harmless, but for some people, struggling with this every day can be stressful and overwhelming. When you meal prep for the week, you don’t have to engage in that battle every day.
       
-      6. Cauliflower Crust: A Low-Carb Alternative
-      Cauliflower crust pizza has gained popularity among health-conscious individuals seeking a lower-carb option. Made by blending cauliflower with other ingredients, this crust transforms a vegetable into a delicious base for pizza toppings. It offers a unique flavor profile and a guilt-free way to indulge in pizza cravings.
+      5. You’ll Gain A New Handy Skill
+      If you want to be more confident in the kitchen, meal prepping can be a great teacher. Meal prepping might help you find your way around the kitchen and open up a world of new recipes—from making roasted chicken and veggies to taco chili in a pressure cooker.
       
-      7. Focaccia Style: A Flavorful Twist
-      Drawing inspiration from the Italian flatbread, focaccia-style pizza crusts combine the best of both worlds. These crusts are soft, airy, and infused with olive oil and herbs, delivering a burst of flavor in every bite. Focaccia-style pizza allows for creative topping combinations that complement the rich flavors of the crust.
+      6. You’ll Create A Better Relationship With Food
+      When you meal prep, you learn more about nutrition and how to treat food for what it is: energy and nutrients. You learn to eat only when you’re hungry instead of making unwise decisions in a rush.
       
-      Whether you're a fan of thin and crispy or have a penchant for deep-dish delights, the world of pizza crusts offers a multitude of options to satisfy every palate. From the nostalgic comfort of classic styles to the innovative creations that push culinary boundaries, pizza crusts play a pivotal role in shaping the way we enjoy this beloved dish. So, the next time you order a pizza, take a moment to savor the unique characteristics of the crust – the foundation that brings it all together in a perfect, cheesy harmony.
+      Related: 7 High-Protein Meals for Breakfast, Lunch, and Dinner
+      
+      7. You’ll Inspire Others
+      Let’s face it, when you see someone doing something inspiring, it can spark some action in you as well. When other people see you leading a healthy lifestyle, it might inspire them to make healthy changes too, even if they’re small.
+      
+      Meal prepping might take some getting used to, but it’s a step in the right direction toward being a healthier you. And you might find that it will become a favorite new habit. Want to try it out? Here’s a tool to help you get started.
+      
+      Do you meal prep? Tell us what meals you like to make on Facebook—we’d love to hear from you. And while you’re here, check out our other articles on healthy living.
       `
   },
 
   {
-    img: Img2,
+    img: nuts,
     name:
-      "Different styles of pizza crust for 8 classic pies",
+      "The Health Benefits Of Nuts",
     intro:
-      "When it comes to pizza, the crust is more than just a vessel for toppings – it's a canvas that can influence the entire dining experience",
+      "Why Are We So Crazy About Nuts? Of Course, Peanut Butter Is One Reason, But These Unassuming Gems Hold Some Powerful Secrets.",
     date: "July 1, 2023",
-    author: "Anna Anderson",
-    id: 2,
-    content: `When it comes to pizza, the crust is more than just a vessel for toppings – it's a canvas that can influence the entire dining experience. From thin and crispy to thick and doughy, pizza crusts come in a variety of types, each with its own unique characteristics and regional influences. Join us as we dive into the delightful world of pizza crusts and explore the different styles that have captured the hearts and taste buds of pizza enthusiasts around the globe.
-
-    Thin and Crispy: A Classic Delight\n
-    Thin crust pizza is a time-honored favorite, known for its delicate crunch and ability to showcase the flavors of the toppings. This type of crust is rolled out thinly, creating a light and airy base that allows the cheese, sauce, and toppings to shine. Originating from places like New York and Italy, thin crust pizza is perfect for those who crave a balance between the toppings and the crust.\n
+    author: "Jennifer Diffley",
+    id: nuts,
+    content: `What Are Nuts?
+    This may seem ridiculously basic, but most people actually don’t know if nuts are fruits or vegetables or some sort of meat hybrid. It may surprise you to learn that people don’t exactly agree on what precisely nuts are. Some believe nuts are fruits and others believe they’re in a class all to themselves. The truth is that different nuts have different classifications. Almonds, for instance, are tree nuts, while peanuts are legumes. It gets messy, but if you have a nut allergy, stay away from all of them.
     
-    Neapolitan: The Authentic Italian Experience\n
-    Hailing from Naples, Italy, the Neapolitan pizza crust is all about tradition. This crust is thin, soft, and slightly chewy, typically featuring a simple yet flavorful combination of San Marzano tomatoes, mozzarella cheese, fresh basil, and olive oil. Baked in wood-fired ovens at high temperatures, Neapolitan pizza crusts boast those irresistible charred spots that add to their rustic charm.\n
+    Don’t Nuts Have A Whole Bunch Of Protein In Them?
+    An ounce of cashews has about 5 grams of protein and an ounce of peanuts has about 7 grams of protein. That’s about the same as an ounce of beef. And it’s a whole lot easier to carry around a handful of nuts than it is to carry around a hamburger patty.
     
-    Deep-Dish: A Hearty Indulgence\n
-    For those who prefer a more substantial bite, deep-dish pizza crusts offer a hearty and satisfying experience. Originating from Chicago, these crusts are thick, buttery, and often pan-baked to create a golden-brown outer layer. The depth of the crust provides ample space for layers of cheese, sauce, and various toppings, making every bite a delicious journey through flavor and texture.\n
+     The benefits of eating nuts, peanuts, almonds, cashews, walnuts
     
-    Stuffed Crust: A Surprise Inside\n
-    Stuffed crust pizza is a delightful twist on the traditional. Here, the crust is stuffed with cheese or other fillings, transforming the outer edge into a gooey, cheesy surprise. This playful style of pizza crust adds an extra layer of indulgence, ensuring that the last bite is as delicious as the first.\n
+    So Nuts Are Healthy! Does That Mean I Can Eat As Many As I Want?
+    There’s no better way to ruin a healthy food choice than by eating too much of a healthy food choice. Nuts are a great source of protein and fat, but they also have quite a few calories. A cup of almonds, for instance, is roughly 530 calories. That’s about one-quarter of the recommended dietary intake for the average man. On the other hand, you can have an entire cup of strawberries, and it will only be approximately 47 calories.
     
-    Whole Wheat and Gluten-Free: Catering to Dietary Needs\n
-    As dietary preferences evolve, so do pizza crust options. Whole wheat and gluten-free crusts cater to those seeking healthier alternatives or with dietary restrictions. Whole wheat crusts offer a nutty flavor and added fiber, while gluten-free crusts, often made from ingredients like rice flour or cauliflower, allow everyone to enjoy the joy of pizza without compromising their dietary needs.\n
+    Oh. So How Many Nuts Should I Eat?
+    If you’re looking to stay within average dietary guidelines, it’s best to have about an ounce of nuts as a snack once a day.
     
-    Cauliflower Crust: A Low-Carb Alternative\n
-    Cauliflower crust pizza has gained popularity among health-conscious individuals seeking a lower-carb option. Made by blending cauliflower with other ingredients, this crust transforms a vegetable into a delicious base for pizza toppings. It offers a unique flavor profile and a guilt-free way to indulge in pizza cravings.\n
+    Which Nuts Are Best?
+    That depends on what you’re looking for. Here’s a breakdown of the type of nut you’ll want to eat depending on your goals:
     
-    Focaccia Style: A Flavorful Twist\n
-    Drawing inspiration from the Italian flatbread, focaccia-style pizza crusts combine the best of both worlds. These crusts are soft, airy, and infused with olive oil and herbs, delivering a burst of flavor in every bite. Focaccia-style pizza allows for creative topping combinations that complement the rich flavors of the crust.\n
+    If your goal is to lose weight—All nuts are about the same in terms of calories, but preparation can make or break a diet along with how many nuts you eat. Make sure the nuts you’re eating are raw or dry roasted in salt— stay away from artificial flavorings and (even though they’re absolutely delicious) honey roasted nuts, which have added sugar and unnecessary carbs.
     
-    Whether you're a fan of thin and crispy or have a penchant for deep-dish delights, the world of pizza crusts offers a multitude of options to satisfy every palate. From the nostalgic comfort of classic styles to the innovative creations that push culinary boundaries, pizza crusts play a pivotal role in shaping the way we enjoy this beloved dish. So, the next time you order a pizza, take a moment to savor the unique characteristics of the crust – the foundation that brings it all together in a perfect, cheesy harmony.`
+    Related: Building a Healthy Plate
+    
+    If you want to help your heart—Meet the almond, a nut that contains Alpha-lipoic acid or, a type of omega-3 fatty acid found in plants. Alpha-lipoic acid helps lower cholesterol and is a powerful antioxidant and anti-inflammatory agent. Plus, studies show that ALA helps lower blood sugar levels and improve insulin sensitivity.
+    
+    If you want to support your brain—Hello, peanuts! Peanuts are high in folate, a great mineral for brain development.
+    
+    If you want to protect against disease—Almonds have the most calcium of any nut, which helps prevent bone deterioration. However, they’re also high in fiber and vitamin E, both valuable in combating inflammation.
+    
+    Now you know why we’re all nuts about nuts—they’re powerful, transportable, delicious little wonders.
+    `
   },
-  {
-    img: Img3,
-    name: "What to do with leftover pizza dough",
-    intro:
-      "Discover the art of repurposing leftover pizza dough with our inventive ideas. From savory bites to sweet delights, your leftover dough has never been this exciting",
-    date: "June 27, 2023",
-    author: "Catherine Wright",
-    id: 3,
-    content: `Got some leftover pizza dough from your recent pizza-making adventure? Don't let it go to waste! Leftover pizza dough is a versatile ingredient that can be transformed into a variety of delicious creations. Whether you're in the mood for something savory or sweet, we've got you covered with creative ideas to make the most out of that extra dough. Let's dive into the wonderful world of repurposing pizza dough leftovers.
 
-    1. Homemade Garlic Knots\n
-    Turn your leftover pizza dough into irresistible garlic knots. Simply roll the dough into small pieces, tie them into knots, and bake them until golden brown. Once out of the oven, brush the knots with a mixture of melted butter, minced garlic, and chopped parsley for a flavorful treat that's perfect as a side dish or snack.\n
-    
-    2. Mini Calzones\n
-    Create mini calzones by filling portions of the leftover dough with your favorite pizza toppings and cheese. Fold the dough over the fillings and seal the edges, then bake until the calzones are golden and the cheese is melted. These handheld delights are great for lunch or as a party appetizer.\n
-    
-    3. Cinnamon Sugar Pizza Sticks\n
-    Satisfy your sweet tooth with cinnamon sugar pizza sticks. Roll out the dough, brush it with melted butter, and sprinkle a mixture of cinnamon and sugar over the top. Cut the dough into strips and bake until they're crispy and golden. Dip them in a sweet glaze for a delectable dessert.\n
-    
-    4. Cheesy Breadsticks\n
-    Transform your leftover dough into cheesy breadsticks that are perfect for dipping. Roll out the dough, top it with a generous layer of shredded cheese, and bake until the cheese is bubbly and the crust is golden. Serve with marinara sauce or a creamy dip for a delightful snack.\n
-    
-    5. Savory Pockets\n
-    Get creative by filling portions of the dough with savory fillings like cooked vegetables, meats, and cheeses. Fold the dough over the fillings and bake until the pockets are golden and the fillings are heated through. These pockets make for a satisfying on-the-go meal.\n
-    
-    6. Pretzel Bites\n
-    Give your leftover pizza dough a pretzel twist! Shape the dough into bite-sized pieces, boil them briefly in a baking soda solution, and then bake until they're golden. Sprinkle with coarse salt and serve with mustard or cheese dip.\n
-    
-    7. Fruit-Filled Pastries\n
-    For a sweet treat, fill portions of the dough with your favorite fruits, such as berries or sliced apples. Fold the dough around the fruit, brush with an egg wash, and bake until the pastries are golden and the fruit is tender. Dust with powdered sugar and enjoy!\n
-    
-    8. Pizza Scrolls\n
-    Roll out the dough and spread a layer of tomato sauce, cheese, and your preferred pizza toppings. Roll the dough into a log and slice it into rounds. Bake the slices until they're golden and the cheese is melted, creating savory pizza scrolls that are perfect for snacking.\n
-    
-    Don't let that extra pizza dough go to waste. With these creative ideas, you can transform your leftover dough into a range of delicious treats, both savory and sweet. Embrace your culinary creativity and enjoy every bite!\n`
-  },
   {
-    img: Img4,
-    name: "Dill pickle pizza recipe",
+    img: superfoods,
+    name:
+      "10 superfoods to boost a healthy diet",
     intro:
-      "Experience the tangy thrill of Dill Pickle Pizza – a surprising fusion of flavors that promises to intrigue and satisfy",
-    date: "June 12, 2023",
-    author: "Nina Kowalski",
-    id: 4,
-    content: `Get ready to embark on a unique culinary adventure with a flavor combination that might surprise you – Dill Pickle Pizza! This unconventional pizza recipe brings together the tangy goodness of dill pickles with the cheesy comfort of pizza. If you're a pickle lover or simply curious about trying something different, this recipe is a must-try. Let's dive into the world of Dill Pickle Pizza and discover how this intriguing combination creates a palate-pleasing experience.
+      "No single food — not even a superfood — can offer all the nutrition, health benefits, and energy we need to nourish ourselves.",
+    date: "July 1, 2023",
+    author: "Katherine D. McManus",
+    id: superfoods,
+    content: `No single food — not even a superfood — can offer all the nutrition, health benefits, and energy we need to nourish ourselves. The 2015–2020 US Dietary Guidelines recommend healthy eating patterns, "combining healthy choices from across all food groups — while paying attention to calorie limits."
 
-    Ingredients:\n
+    Over the years, research has shown that healthy dietary patterns can reduce risk of high blood pressure, heart disease, diabetes, and certain cancers. Dietary patterns such as the DASH (Dietary Approaches to Stop Hypertension) diet and the Mediterranean diet, which are mostly plant-based, have demonstrated significant health benefits and reduction of chronic disease.
     
-    Pizza dough\n
-    Olive oil\n
-    Dill pickle slices\n
-    Shredded mozzarella cheese\n
-    Diced cooked ham or bacon (optional)\n
-    Red onion slices\n
-    Fresh dill\n
-    Garlic powder\n
-    Crushed red pepper flakes (optional)\n
-    Instructions:\n
+    However, there are a few foods that can be singled out for special recognition. These "superfoods" offer some very important nutrients that can power-pack your meals and snacks, and further enhance a healthy eating pattern.
     
-    Preheat your oven to the temperature recommended for your pizza dough.\n
-    Roll out the pizza dough on a floured surface to your desired thickness.\n
-    Transfer the rolled-out dough to a pizza stone or baking sheet.\n
-    Lightly brush the dough with olive oil to create a golden and crispy crust.\n
-    Sprinkle a layer of shredded mozzarella cheese over the dough.\n
-    Distribute dill pickle slices evenly across the cheese.\n
-    If using, scatter diced cooked ham or bacon over the pickles.\n
-    Add slices of red onion for a touch of sweetness and crunch.\n
-    Sprinkle fresh dill over the toppings for a burst of herbaceous flavor.\n
-    Lightly dust the pizza with garlic powder to enhance the savory elements.\n
-    For a hint of heat, add a sprinkle of crushed red pepper flakes.\n
-    Transfer the pizza to the preheated oven and bake until the crust is golden and the cheese is melted and bubbly.\n
-    Once out of the oven, let the pizza cool for a moment before slicing.\n
-    Garnish with additional fresh dill if desired.\n
-    Slice, serve, and enjoy the delightful fusion of flavors!\n
-    Why It Works:\n
-    The tangy dill pickles complement the rich cheese and savory toppings, creating a harmonious balance of flavors. The red onion adds a touch of sweetness and the fresh dill elevates the overall taste profile. The optional addition of ham or bacon adds a layer of umami and saltiness. The combination of ingredients might be unconventional, but it's an unexpectedly delicious treat for your taste buds.
+    Superfoods list
+    Berries. High in fiber, berries are naturally sweet, and their rich colors mean they are high in antioxidants and disease-fighting nutrients.
     
-    The Verdict:\n
-    Dill Pickle Pizza is a culinary adventure worth taking. Its bold flavors and unexpected pairing make for a memorable meal that will intrigue and delight your senses. Whether you're hosting a pizza night or simply want to try something new, this recipe is sure to spark curiosity and satisfy your cravings.`
+    How to include them: When berries are not in season, it is just as healthy to buy them frozen. Add to yogurt, cereals, and smoothies, or eat plain for a snack.
+    
+    Fish. Fish can be a good source of protein and omega-3 fatty acids, which help prevent heart disease.
+    
+    How to include it: Buy fresh, frozen, or canned fish. Fish with the highest omega-3 content are salmon, tuna steaks, mackerel, herring, trout, anchovies, and sardines.
+    
+    Leafy greens. Dark, leafy greens are a good source of vitamin A, vitamin C, and calcium, as well as several phytochemicals (chemicals made by plants that have a positive effect on your health). They also add fiber into the diet.
+    
+    How to include them: Try varieties such as spinach, swiss chard, kale, collard greens, or mustard greens. Throw them into salads or sauté them in a little olive oil. You can also add greens to soups and stews.
+    
+    Nuts. Hazelnuts, walnuts, almonds, pecans — nuts are a good source of plant protein. They also contain monounsaturated fats, which may be a factor in reducing the risk of heart disease.
+    
+    How to include them: Add a handful to oatmeal or yogurt or have as a snack. But remember they are calorically dense, so limit to a small handful. Try the various types of nut butters such as peanut (technically a legume), almond, or cashew. Nuts are also a great accompaniment to cooked veggies or salads.
+    
+    Olive oil. Olive oil is a good source of vitamin E, polyphenols, and monounsaturated fatty acids, all which help reduce the risk of heart disease.
+    
+    How to include it: Use in place of butter or margarine in pasta or rice dishes. Drizzle over vegetables, use as a dressing, or when sautéing.
+    
+    Whole grains. A good source of both soluble and insoluble fiber, whole grains also contain several B vitamins, minerals, and phytonutrients. They have been shown to lower cholesterol and protect against heart disease and diabetes.
+    
+    How to include them: Try having a bowl of oatmeal for breakfast. Substitute bulgur, quinoa, wheat berries, or brown rice for your usual baked potato. When buying breads at the supermarket, look to see that the first ingredient is "100% whole wheat flour."
+    
+    Yogurt. A good source of calcium and protein, yogurt also contains live cultures called probiotics. These "good bacteria" can protect the body from other, more harmful bacteria.
+    
+    How to include it: Try eating more yogurt, but watch out for fruited or flavored yogurts, which contain a lot of added sugar. Buy plain yogurt and add your own fruit. Look for yogurts that have "live active cultures" such as Lactobacillus, L. acidophilus, L. bulgaricus, and S. thermophilus. You can use yogurt in place of mayonnaise or sour cream in dips or sauces.
+    
+    Cruciferous vegetables. These include broccoli, Brussels sprouts, cabbage, cauliflower, collard greens, kale, kohlrabi, mustard greens, radishes, and turnips. They are an excellent source of fiber, vitamins, and phytochemicals including indoles, thiocyanates, and nitriles, which may prevent against some types of cancer.
+    
+    How to include them: Steam or stir-fry, adding healthy oils and herbs and seasonings for flavor. Try adding a frozen cruciferous vegetable medley to soups, casseroles, and pasta dishes.
+    
+    Legumes. This broad category includes kidney, black, red, and garbanzo beans, as well as soybeans and peas. Legumes are an excellent source of fiber, folate, and plant-based protein. Studies show they can help reduce the risk of heart disease.
+    
+    How to include them: Add to salads, soups, and casseroles. Make a chili or a bean- based spread such as hummus.
+    
+    Tomatoes. These are high in vitamin C and lycopene, which has been shown to reduce the risk of prostate cancer.
+    
+    How to include them: Try tomatoes in a salad or as a tomato sauce over your pasta. You can also put them in stews, soups, or chili. Lycopene becomes more available for your body to use when tomatoes are prepared and heated in a healthy fat such as olive oil.
+    `
   },
+
   {
-    img: Img5,
-    name: "5 accessories to take your pizza party to the next level",
+    img: teenager,
+    name: "Nutrition and healthy food for teenagers",
     intro:
-      "Turn your pizza party into an unforgettable event with these five accessories that add convenience and style to the festivities",
+      "Pre-teens and teenagers need a wide variety of foods from the five healthy food groups – vegetables, fruit, grains, dairy and protein.",
     date: "May 10, 2023",
     author: "Cara Nelson",
-    id: 5,
-    content: `Planning a pizza party? Elevate the experience from ordinary to extraordinary with the right accessories. Whether you're hosting a casual get-together or a themed pizza night, these accessories will add a touch of flair and convenience to your pizza party. Let's explore five must-have accessories that will take your pizza party to the next level.
+    id: teenager,
+    content: `Why older children and teenagers need healthy food and good nutrition
+    Teenagers go through big physical changes in puberty. They need extra nutrition to fuel these physical changes, which means they need to eat healthy food.
+    
+    Your child’s level of physical activity and stage of development determine exactly how much healthy food they need. But you’ll notice your child has a bigger appetite, which is their body’s way of telling them to eat more.
+    
+    What is healthy food for older children and teenagers?
+    Healthy food for pre-teen and teenage children includes a wide variety of fresh foods from the five food groups:
+    
+    1. vegetables
+    2. fruit
+    3. grain foods
+    4. reduced-fat dairy or dairy-free alternatives
+    5. protein
 
-    1. Pizza Stone or Pizza Oven\n
-    Upgrade your pizza-making game with a pizza stone or a dedicated pizza oven. A pizza stone ensures a crispy and evenly cooked crust by distributing heat evenly. If you're a pizza enthusiast, investing in a pizza oven can bring the authentic pizzeria experience to your home. The high temperatures achieved by these ovens result in perfectly charred and bubbling pizzas that will impress your guests.
+    Each food group has different nutrients, which your child’s body needs to grow and work properly. That’s why we need to eat a range of foods from across all five food groups.
     
-    2. Pizza Peel\n
-    A pizza peel is an essential tool for transferring pizzas in and out of the oven. Its flat, paddle-like design allows you to slide the pizza onto the hot surface and retrieve it with ease. Look for a peel with a comfortable handle and a thin edge for smooth maneuvering. It's not only practical but also adds a touch of authenticity to your pizza-making process.
+    Fruit and vegetables
+    Fruit and vegies give your child energy, vitamins, anti-oxidants, fibre, and water. These nutrients help protect your child against diseases later in life, including diseases like heart disease, stroke and some cancers.
     
-    3. Pizza Cutter Wheel\n
-    Say goodbye to struggling with regular knives and opt for a specialized pizza cutter wheel. This handy accessory effortlessly slices through the crust, cheese, and toppings, creating clean and uniform pizza slices. Look for a cutter with a sharp blade and a comfortable grip for smooth cutting motions. With a pizza cutter wheel, serving your delicious creations becomes a breeze.
+    Encourage your child to choose fruit and vegetables at every meal and for snacks. This includes fruit and vegies of different colours, textures and tastes, both fresh and cooked.
     
-    4. Pizza Serving Stand\n
-    Elevate the presentation of your pizzas with a stylish pizza serving stand. Whether it's a tiered stand for displaying multiple pizzas or an elegant single-level stand, it adds a touch of elegance to your pizza spread. Not only does it enhance the visual appeal, but it also keeps the pizzas elevated, making them easily accessible to your guests.
+    Wash fruit to remove dirt or chemicals, and leave any edible skin on, because the skin contains nutrients too.
     
-    5. Pizza Box Warmers\n
-    If you're planning to have pizzas delivered or you're making them ahead of time, pizza box warmers can keep your pies at the perfect temperature until they're ready to be enjoyed. These warmers are designed to maintain the heat and prevent the pizzas from getting soggy. Your guests will appreciate the attention to detail and the effort to serve them piping hot slices.
-    
-    In Conclusion:\n
-    Elevating your pizza party is all about the little details, and the right accessories can make a significant difference. From achieving the perfect crust to serving your slices with style, these accessories are essential for a memorable pizza party that your guests will be talking about for days to come.`
-  },
-  {
-    img: Img6,
-    name: "The best vegan cheese and meat for pizza",
-    intro:
-      "Experience the delectable world of plant-based pizza with the best vegan cheese and meat alternatives",
-    date: "May 3, 2023",
-    author: "Tom Wilson",
-    id: 6,
-    content: `Looking to create a delicious vegan pizza that's just as satisfying as its traditional counterparts? With the right vegan cheese and meat alternatives, you can enjoy all the flavors and textures you love without compromising your dietary choices. Whether you're a seasoned vegan or simply exploring plant-based options, let's dive into the world of the best vegan cheese and meat for creating mouthwatering pizzas that will leave everyone asking for seconds.
+    Grain foods
+    Grain foods include bread, pasta, noodles, breakfast cereals, couscous, rice, corn, quinoa, polenta, oats and barley. These foods give your child the energy they need to grow, develop and learn.
 
-    1. Vegan Cheese Varieties\n
-    
-    Cashew-Based Mozzarella: Creamy and melt-worthy, cashew-based mozzarella is a popular choice for vegan pizza. Its mild flavor and gooey texture make it an excellent substitute for traditional mozzarella. Look for brands that achieve a nice melt and stretch when heated.\n
-    Nutritional Yeast Parmesan: Sprinkle some nutritional yeast-based parmesan on your pizza for a cheesy and savory kick. Nutritional yeast adds a umami-rich flavor that's reminiscent of aged cheese, elevating the overall taste of your pie.\n
-    2. Plant-Based Meat Alternatives\n
-    
-    Beyond Meat Crumbles: These meatless crumbles mimic the texture of ground meat, making them perfect for topping your vegan pizza. Seasoned with spices, they add a savory element to your pie that's hard to resist.\n
-    Soy-Based Sausage: Whether it's Italian-style or spicy, soy-based sausage crumbles bring a hearty and flavorful element to your pizza. They're a great way to capture the essence of traditional sausage without any animal products.\n
-    3. Jackfruit "Pulled Pork":\n
-    When cooked and shredded, young jackfruit takes on a texture similar to pulled pork. Marinate it in your favorite barbecue or savory sauce, and use it as a topping for a unique and satisfying vegan pizza experience.
-    
-    4. Seitan Pepperoni:\n
-    Seitan, a protein-rich wheat gluten, can be seasoned and sliced thin to create pepperoni-like rounds. When baked on the pizza, seitan pepperoni crisps up and adds a deliciously spicy and smoky flavor.
-    
-    5. Tempeh Bacon:\n
-    Sliced tempeh marinated in a smoky and savory mixture can be baked until crispy, creating a bacon-like topping for your vegan pizza. It adds a satisfying crunch and rich flavor to each bite.
-    
-    Why It Works:\n
-    The key to a successful vegan pizza lies in choosing high-quality cheese and meat alternatives that capture the essence of traditional pizza toppings. Modern vegan products have come a long way in terms of flavor, texture, and meltability, making it easier than ever to create a pizza that satisfies your cravings.
-    
-    The Verdict:\n
-    With the right combination of vegan cheese and meat alternatives, you can create a pizza that's both delicious and compassionate. Whether you're catering to vegans, trying to reduce your animal product consumption, or simply curious about exploring new flavors, the world of plant-based pizza toppings offers endless possibilities for a satisfying meal.`
-  },
-  {
-    img: Img7,
-    name: "National BBQ (Pizza) month! Gear for your grill",
-    intro:
-      "Gear up for a month of sizzling delights with the essential tools and accessories that make grilling pizzas a true pleasure",
-    date: "April 11, 2023",
-    author: "Kerry Smith",
-    id: 7,
-    content: `It's that time of year again – National BBQ (Pizza) Month! What better way to celebrate than by firing up your grill and indulging in the smoky flavors of grilled pizzas? To make the most of this special month, let's explore the essential gear that will take your grill game to the next level. Whether you're a seasoned grill master or a pizza enthusiast, these tools and accessories will ensure your BBQ (Pizza) Month is a sizzling success.
+    Grain foods with a low glycaemic index, like wholegrain pasta and breads, will give your child longer-lasting energy and keep them feeling fuller for longer.
 
-    1. Pizza Stone for Grilling:\n
-    A pizza stone designed for grilling is a must-have accessory. It helps create a perfectly crispy and charred crust by evenly distributing heat. Place the stone on your grill and preheat it to achieve the ideal cooking surface for your pizzas.
-    
-    2. Pizza Peel with Long Handle:\n
-    A long-handled pizza peel makes transferring your pizzas to and from the grill a breeze. Its large surface allows you to slide your pizza onto the hot stone with ease and retrieve it once it's cooked to perfection.
-    
-    3. Grill Thermometer:\n
-    To achieve the right temperature for grilling pizzas, a grill thermometer is essential. This tool ensures that your grill reaches the optimal temperature for cooking your crust to golden perfection and melting your cheese just right.
-    
-    4. Pizza Cutter Wheel:\n
-    Upgrade your pizza cutting game with a sturdy pizza cutter wheel. It effortlessly slices through your grilled pizza, creating clean and appetizing portions that are ready to be enjoyed.
-    
-    5. BBQ Pizza Oven Attachment:\n
-    Take your grill to the next level with a BBQ pizza oven attachment. This ingenious accessory transforms your grill into a high-heat pizza oven, allowing you to achieve those coveted wood-fired flavors and charred crusts.
-    
-    In Conclusion:\n
-    National BBQ (Pizza) Month is the perfect opportunity to explore the magic of grilled pizzas. With the right gear, you can elevate your outdoor cooking experience and create restaurant-quality pies from the comfort of your backyard. From achieving the perfect crust to mastering the art of topping placement, these accessories will help you create memorable grilled pizzas that will have everyone coming back for seconds.`
+    Reduced-fat dairy foods and dairy-free alternatives
+    Key dairy foods are milk, cheese and yoghurt. These foods are good sources of calcium and protein.
+
+    In puberty, your child needs more calcium to help them reach peak bone mass and build strong bones for life. So encourage your child to have different kinds of dairy each day – for example, drinks of milk, cheese slices, bowls of yoghurt and so on.
+
+    If your child doesn’t eat dairy, it’s important for them to eat dairy-free foods that are rich in calcium – for example, tofu, kale, bok choy, nuts, seeds, tinned fish with bones, and calcium-fortified foods like cereal, soy milk and bread. Not all dairy alternatives are fortified with calcium, though, so make sure to read food labels.
+
+    Protein
+    Protein-rich foods include lean meat, fish, chicken, eggs, beans, lentils, chickpeas, tofu and nuts. These foods are important for your child’s growth and muscle development, especially during puberty.
+
+    These protein-rich foods also have other vitamins and minerals like iron and omega-3 fatty acids, which are particularly important during adolescence:
+
+    Omega-3 fatty acids from oily fish help with your child’s brain development and learning.
+    Iron fuels your child’s muscle growth and increase in blood volume. Girls need extra iron because of their periods.
+    Protein-rich foods from animal sources have zinc and vitamin B12 too.
+
+    Healthy drinks for teenagers
+
+    Water is the healthiest drink for your child. It’s also the cheapest. Most tap water is fortified with fluoride for strong teeth too.
+
+    Reduced-fat milk is also a good drink option for teenagers. It’s rich in calcium, which is good for bone development.
+
+    Foods and drinks to limit
+    Encourage your child to limit the amount of ‘sometimes’ food they eat. This means your child will have more room for healthy, everyday foods.
+
+    ‘Sometimes’ foods include fast food, takeaway and junk food like hot chips, potato chips, dim sims, pies, burgers, and takeaway pizza. They also include cakes, chocolate, lollies, biscuits, doughnuts and pastries.
+
+    These foods can be high in salt, saturated fat and sugar, and low in fibre. If teenagers regularly eat these foods, it can increase their risk of teenage overweight and obesity and other health conditions like type-2 diabetes.
+
+    Your child should limit sweet drinks like fruit juice, cordials, sports drinks, flavoured waters, soft drinks and flavoured milks. Sweet drinks are high in sugar and low in nutrients.
+
+    Too many sweet drinks can lead to unhealthy weight gain, obesity and tooth decay. These drinks fill your child up and can make them less hungry for healthy meals.
+
+    Foods and drinks with caffeine aren’t recommended for older children and teenagers because caffeine can affect how much calcium the body can absorb. Caffeine is also a stimulant, which means it gives children artificial energy. Too much caffeine can cause sleep problems as well as problems concentrating at school.
+
+    Foods and drinks with caffeine include coffee, tea, energy drinks and chocolate.
+
+    Healthy alternatives for snacks and desserts
+    Encourage your child to choose snacks from the healthy food groups. This can include things like nuts, cheese, low-fat yoghurt and fresh fruit or vegetables – for example, carrot and celery sticks, rice cakes or wholegrain crackers with dips like hommus, guacamole o tzatziki.
+
+    The same goes for dessert at the end of a meal. Sliced fruit or yoghurt are healthy options. If you want to serve something special, try homemade banana bread. Save the seriously sweet stuff, like cakes and chocolate, for special occasions like birthdays.
+    `
   },
+
   {
-    img: Img8,
-    name: "The biggest mistakes when making pizza",
+    img: pyramid,
+    name: "The Food Pyramid: A Guide to a Balanced Diet",
     intro:
-      "Embark on a journey to pizza perfection by steering clear of the most common errors in pizza-making",
+      "Balanced diet is a key to stay healthy. Follow the Healthy Eating Food Pyramid guide as you pick your food.",
+    date: "May 10, 2023",
+    author: "Cara Nelson",
+    id: pyramid,
+    content: `The Healthy Eating Food Pyramid
+    Balanced diet is a key to stay healthy. Grains should be taken as the most. Eat more fruit and vegetables. Have a moderate amount of meat, fish, egg, milk and their alternatives. Reduce fat/ oil, salt and sugar. Trim fat from meat before cooking. Cook with low-fat methods such as steaming, stewing, simmering, boiling, scalding or cooking with non-stick frying pans. Also reduce the use of frying and deep-frying. These can help us achieve a balanced diet and promote health.
+     
+    How much of different kinds of food should I eat to stay healthy?
+     
+    Eat the Right Food
+    Since different foods have different nutritional values, it is not possible to obtain all the nutrients we need from a single food. According to the Healthy Eating Food Pyramid, we have to eat a variety of foods among all food groups as well as within each group in order to get different nutrients and meet our daily needs.
+     
+    Eat the Right Amount
+    Neither eating too much nor too little is good for our health. Every day, we need a specific amount of nutrients to maintain optimal health. If we do not eat enough, malnutrition or symptoms of nutrient deficiency are likely to develop. In contrast, excessive intake can result in over-nutrition and obesity. Therefore, we have to eat the right amount of food to stay healthy.
+     
+    Healthy Eating Food Pyramid
+    Eat Most - Grains
+    Eat More - Vegetables and fruits
+    Eat Moderately - Meat, fish, egg and alternatives (including dry beans) and milk and alternatives
+    Eat Less - Fat/ oil, salt and sugar
+    Drink adequate amount of fluid (including water, tea, clear soup, etc) every day
+    `
+  },
+  
+  {
+    img: salt,
+    name: "Which Salts Have the Lowest Sodium",
+    intro:
+      "Kosher, iodized, sea salt, and pink Himalayan salt: we break down which types of salt have the lowest sodium.",
     date: "April 2, 2023",
     author: "Kira Wilson",
-    id: 8,
-    content: `Making pizza at home is a delightful experience that allows you to get creative with flavors and toppings. However, even the most seasoned home cooks can fall victim to common pitfalls that result in less-than-perfect pies. To help you avoid these culinary mishaps, let's explore the biggest mistakes people often make when making pizza, so you can create the best pizza possible every time.
+    id: salt,
+    content: `Iodized Salt
+    You may know the term "iodized salt" or recognize its packaging. Table salt is often fortified with iodine, which is important for producing thyroid hormones, according to the American Thyroid Association. If you don't have enough iodine, you may become at risk for an enlarged thyroid.
+    
+    Iodized salt is a great source of iodine and dissolves the quickest in food, making it ideal for most of your cooking and baking needs.
+    
+    Bottom line: One teaspoon of iodized salt contains about 2,360 milligrams of sodium (just above the recommended daily serving), according to the USDA. Use it in recipes with exact measurements and in the pasta water.
 
-1. Skipping the Pizza Stone:\n
-A pizza stone is your best friend when it comes to achieving a crispy and evenly cooked crust. Skipping this essential tool can lead to uneven cooking and a soggy bottom, leaving you with a lackluster pizza.
+    Iodized Salt
+    You may know the term "iodized salt" or recognize its packaging. Table salt is often fortified with iodine, which is important for producing thyroid hormones, according to the American Thyroid Association. If you don't have enough iodine, you may become at risk for an enlarged thyroid.
 
-2. Overloading with Toppings:\n
-While it's tempting to pile on the toppings, less is often more when it comes to pizza. Overloading your pizza with too many ingredients can lead to a soggy and overwhelmed crust. Aim for a balanced distribution of toppings to ensure each bite is flavorful without compromising the structural integrity of your pizza.
+    Iodized salt is a great source of iodine and dissolves the quickest in food, making it ideal for most of your cooking and baking needs.
 
-3. Neglecting the Dough:\n
-The dough is the foundation of your pizza, and neglecting it can result in lackluster results. Be sure to let your dough rise adequately, whether store-bought or homemade. Additionally, avoid rolling out the dough too thin or too thick, as both extremes can affect the final texture.
+    Bottom line: One teaspoon of iodized salt contains about 2,360 milligrams of sodium (just above the recommended daily serving), according to the USDA. Use it in recipes with exact measurements and in the pasta water.
 
-4. Using Cold Cheese:\n
-Using cold cheese straight from the fridge can hinder proper melting and distribution of flavors. Allow your cheese to come to room temperature or shred it fresh for better meltability and an even layer across your pizza.
+    Sea Salt
+    Sea salt comes from evaporated ocean water or saltwater lakes. Because sea salt is less processed than iodized salt, it 1) has less iodine but 2) retains small amounts of minerals like potassium.
 
-5. Ignoring Preheating:\n
-Preheating your oven and pizza stone is crucial for achieving that coveted crispy crust. Failing to preheat properly can lead to uneven cooking, resulting in a doughy or undercooked center.
+    Sea salt has bigger granules than other types of salt, which can potentially mean more flavor for less sodium. But skip this briny salt in everyday cooking or baking since it doesn't dissolve easily, which can cause issues with the taste and texture of dishes. It's more fun to sprinkle it on top of your dishes.
 
-6. Neglecting Seasoning:\n
-Pizza is all about balance, and that includes seasoning. Neglecting to season your sauce, cheese, and toppings can result in a bland or unbalanced flavor profile. Don't forget to add a pinch of salt, a sprinkle of herbs, and a dash of your favorite spices.
+    Bottom line: One teaspoon of sea salt has about 2,000 milligrams of sodium, according to the USDA. Try it as a flavorful garnish for soups, salads, and even chocolate chip cookies.
+    
+    Low-Sodium Salt
+    Low-sodium salt is growing in popularity, but what exactly is it? It's sodium chloride (you know, salt) that has had some of its sodium replaced with potassium chloride, a mineral that tastes salty but is bitter when heated.
 
-7. Skipping Rest Time:\n
-Once your pizza comes out of the oven, it's tempting to slice and serve immediately. However, allowing your pizza to rest for a few minutes before cutting gives the cheese and toppings a chance to settle, preventing a messy, slide-off-the-toppings situation.
+    While more research is needed to understand the full effects of low-sodium salt, a 2021 study published in The New England Journal of Medicine showed the potential for low-sodium salts to decrease rates of stroke, major cardiovascular events, and death. This study used a salt substitute that contained 75% sodium chloride and 25% potassium chloride.
 
-In Conclusion:\n
-Mistakes happen, but learning from them is what makes you a better pizza maker. By avoiding these common missteps, you can enhance your pizza-making skills and consistently create delicious, restaurant-quality pies in the comfort of your home.`
+    Bottom line: Low-sodium salt may be a good alternative to table salt if you're trying to reduce your sodium intake. However, if you have kidney disease or take certain medications, the NIH recommends you speak to a health provider before using low-sodium salts with potassium chloride.
+
+    Pink Himalayan Salt
+    Pink Himalayan salt is mined in Pakistan near the Himalayas. You've maybe seen it at the dinner table in salt grinders, on a nightstand in a bedside lamp, or in spas, where "salt rooms" advertise non-dietary health benefits like stress or allergy relief.
+
+    Pink Himalayan salt has slightly less sodium than table salt. It also has trace amounts of mineral elements (that help make it pink) like magnesium, zinc, iron, calcium, and potassium, but not enough to have an impact on your health.
+
+    Pink Himalayan salt does have less iodine, which your body needs. The NIH notes that if you live in mountainous areas like the Himalayas, you are at risk for iodine deficiency unless you consume iodized salt.
+
+    Importantly, not enough research supports the most popular health claims like stress, allergy, or muscle-soreness relief.
+
+    Bottom line: A teaspoon of pink Himalayan salt has about 1,680 milligrams of sodium, according to the USDA. It may be a great addition to your meal. But we still need more research to understand the non-dietary benefits of pink Himalayan salt.
+    `
   },
+
   {
-    img: Img9,
-    name: "What is the perfect mozzarella for your cheese pizza",
+    img: bonehealth,
+    name: "Nutrition for bones",
     intro:
-      "Delve into the world of mozzarella and discover the ideal match for your cheese pizza aspirations",
+      "Eating and drinking the right things can help support your bone health at every stage of your life.",
     date: "March 18, 2023",
     author: "George Denson",
-    id: 9,
-    content: `When it comes to crafting the quintessential cheese pizza, choosing the right mozzarella is essential. The type of mozzarella you select can greatly impact the texture, flavor, and overall experience of your pizza. To help you make the best choice, let's explore the different types of mozzarella and find out which one is the perfect match for creating the ultimate cheese pizza.
+    id: bonehealth,
+    content: `Calcium and vitamin D are two nutrients well-known to be important for bones. But there are many other vitamins, minerals and nutrients that are vital to help your bones stay healthy and strong.
 
-    1. Fresh Mozzarella:\n
-    Known for its soft and creamy texture, fresh mozzarella delivers a delicate and milky flavor that pairs perfectly with the simplicity of a cheese pizza. Its moisture content can create a slightly wetter pizza, so consider patting the cheese dry before placing it on the pizza to prevent excess moisture.
+    Try not to become too concerned with getting all these in your diet. If you enjoy a healthy, balanced diet, you're probably getting everything you need.
     
-    2. Low-Moisture Mozzarella:\n
-    Low-moisture mozzarella is the go-to choice for many pizzerias. It's easy to shred and offers a good melt while maintaining a balanced texture. This type of mozzarella strikes a harmonious balance between moisture and flavor, resulting in a classic cheese pizza that's both creamy and savory.
+    A healthy, balanced diet
+    This is all about eating meals that have foods from the four main food groups:
     
-    3. Whole-Milk Mozzarella:\n
-    Whole-milk mozzarella is rich and indulgent, making it a top choice for those seeking a more decadent cheese pizza experience. Its higher fat content contributes to a luscious melt and a more pronounced cheese flavor that blankets the pizza with a luxurious quality.
-    
-    4. Part-Skim Mozzarella:\n
-    If you're looking for a lighter option without sacrificing flavor, part-skim mozzarella is a great choice. It delivers a pleasing melt and a slightly less creamy texture compared to whole-milk mozzarella, making it an ideal compromise between flavor and calorie-consciousness.
-    
-    5. Shredded vs. Freshly Sliced:\n
-    Whether you choose pre-shredded mozzarella or opt to slice it fresh, both options can yield delicious results. Pre-shredded mozzarella offers convenience, while slicing it fresh allows you to control the thickness and distribution of the cheese on your pizza.
-    
-    In Conclusion:\n
-    The perfect mozzarella for your cheese pizza ultimately depends on your preferences and the texture you desire. Whether you're aiming for a classic melt, a creamy indulgence, or a lighter option, each type of mozzarella has its unique qualities that can elevate your cheese pizza experience. Remember, the perfect mozzarella is the one that brings joy to your taste buds and makes your cheese pizza a true masterpiece.`
+    fruit and vegetables
+    carbohydrates, like bread, potatoes, pasta and cereals
+    dairy and alternatives
+    proteins, like beans, eggs, fish and meat
+    For more information about these food groups and how much of each you need, take a look at The Eatwell Guide.
+
+    Calcium
+    Calcium gives your bones the strength and hardness they need to cope with your everyday activities.
+
+    Your body contains about one kilogram of calcium - 99% of this is in your bones. Most people can get enough calcium through healthy eating alone.
+
+    Foods containing calcium
+    Whatever your dietary needs, there are plenty of foods you can eat to get calcium through your diet. Foods rich in calcium include:
+
+    -dairy products, like milk and cheese
+    -green leafy vegetables
+    -almonds
+    -sesame seeds
+    -sardines
+    -dried fruit
+    -pulses
+    -tofu
+    -fortified foods and drink, like breakfast cereal and alternative milks.
+
+    Vitamin D for bones
+    Vitamin D helps your body absorb and use calcium, which gives your bones their strength and hardness.
+
+    There are three ways you can get vitamin D:
+
+    -From sunlight
+    -From food
+    -From supplements
+
+    Low vitamin D levels could increase your risk of osteoporosis and broken bones. And a severe shortage of vitamin D causes rickets and osteomalacia, which is soft, weak bones.
+
+    Sunlight
+    When the sun’s rays fall on your body, they react with your skin to make vitamin D. In the UK, your skin can only get vitamin D from sunlight between March and September. During this time, it's recommended you expose your skin to direct sunlight for around 10 minutes, once or twice per day.
+
+    Give your skin short periods in the sun, without sunscreen, while you're doing short outdoor tasks such as: hanging out the washing, pulling up weeds and walking to the shops.
+
+    Food
+    There's a small amount of vitamin D in some foods, but it's difficult to get enough vitamin D from food alone. Foods containing vitamin D include:
+
+    -oily fish, such as herring, salmon and mackerel
+    -eggs
+    -some pork products
+    -lamb's liver
+    -fortified bread
+    -fortified yoghurts
+    -specially processed mushrooms.
+    `
   },
+  
   {
-    img: Img10,
-    name: "Breakfast pizza recipe",
+    img: onthego,
+    name: "How to Eat Healthy When You Have No Time",
     intro:
-      "Embark on a culinary adventure that merges morning traditions with the joy of pizza",
+      "Tips to make intentional healthy decisions when purchasing food even on a tight schedule.",
     date: "March 7, 2023",
     author: "Alex Lee",
-    id: 10,
-    content: `Start your day with a delicious twist on a classic favorite – Breakfast Pizza! Combining the best of both worlds, this recipe brings together the comforting flavors of breakfast and the satisfying appeal of pizza. If you're looking to kickstart your morning with a hearty and savory treat, let's dive into the delightful world of breakfast pizza and uncover the steps to creating a breakfast masterpiece.
+    id: onthego,
+    content: `You start with the best intentions: You bookmark healthy recipes, pick up kale and quinoa at the grocery store and buy a pressure cooker. But then something happens. You get slammed with a huge work project, you find yourself taking care of sick kids (or parents), or you spend all day running errands. Whatever the reason, life often leaves us no time (or energy!) to prepare meals. So you swing by the drive-thru or phone for a pizza, which leaves you feeling bloated and discouraged about ever eating healthy again.
 
-    Ingredients:\n
+    You’re right to be concerned. “A diet that’s high in saturated fat, sodium and sugar can lead to obesity , elevated blood cholesterol levels and high blood pressure — all of which are risk factors for heart disease,” says Isatu Isuk, R.D., L.D.N., a dietitian at The Johns Hopkins Hospital. But there are ways you can whip up wholesome meals at home without investing tons of time planning meals or grocery shopping. You can also eat healthier when you’re on the go. Isuk recommends these strategies to help you stay on track even when you’re feeling frazzled.
     
-    Pizza dough (store-bought or homemade)\n
-    Eggs\n
-    Breakfast meat of your choice (bacon, sausage, ham)\n
-    Shredded mozzarella cheese\n
-    Sautéed vegetables (bell peppers, onions, mushrooms)\n
-    Olive oil\n
-    Salt and pepper\n
-    Instructions:\n
+    Healthy Restaurant Options
+    Many restaurants now offer lighter fare on their menus, often with calorie counts. Take a quick look at restaurant menus online to see which ones provide the best options before you head out. Then consider these tips when ordering:
     
-    Preheat your oven according to the pizza dough's instructions.\n
-    Roll out the pizza dough on a floured surface to your desired thickness.\n
-    Transfer the dough to a pizza stone or baking sheet.\n
-    Brush the dough with olive oil to prevent sogginess.\n
-    Sprinkle a layer of shredded mozzarella cheese on the dough.\n
-    Cook the breakfast meat of your choice and crumble it over the cheese.\n
-    Add sautéed vegetables for added flavor and color.\n
-    Create wells in the toppings for cracking the eggs.\n
-    Crack eggs into the wells, keeping the yolks intact.\n
-    Season the pizza with salt and pepper to taste.\n
-    Transfer the pizza to the preheated oven and bake until the crust is golden, cheese is melted, and egg whites are set.\n
-    Once out of the oven, let the pizza cool for a moment before slicing.\n
-    Slice, serve, and enjoy a hearty breakfast pizza that's a perfect start to your day.\n
-    Why It Works:\n
-    Breakfast pizza combines the richness of melted cheese, the savoriness of breakfast meats, the freshness of vegetables, and the comfort of eggs into one flavorful bite. The combination of textures and flavors makes it a satisfying and versatile morning meal.
+    1. Eat a small salad or broth-based soup first. It’s a nutritious and filling start to your meal that will help you consume fewer calories overall.
+    2. Choose veggie-based entrees or those with baked, broiled or grilled fish or skinless chicken.
+    3. Look for meals that aren’t greasy or oily. For example, instead of ordering cheese-covered chicken enchiladas, get the grilled chicken or fish tacos. Choose food items without creamy sauces or gravies.
+    4. Ask to substitute veggies or salad for fattening sides such as fries, coleslaw or butter-laden mashed potatoes.
     
-    The Verdict:\n
-    Whether you're enjoying a leisurely weekend brunch or need a quick breakfast option on the go, breakfast pizza has you covered. It's a creative and customizable way to enjoy your favorite breakfast ingredients in a new and exciting format.`
+    Portions served at restaurants can be too big. See if smaller portions are available. Restaurants often offer “half” salads or sandwiches upon request. If not, ask for a doggie bag and be prepared to take home one-third to half of the meal.
+    If you crave dessert, opt for fresh fruit or sorbet.
+
+    Better Fast-Food Choices
+    Eating fast food doesn’t mean you have to down a fatty cheeseburger and salty fries. These days, there are a variety of menu options where you can find healthier picks. Many fast-food restaurants also have their menus, with calorie counts, online.
+    
+    Smart picks for a quick and easy meal are places where you have more control over what goes into your order. At a sandwich shop, it’s easy to make healthy adjustments such as no mayo, extra veggies and whole wheat bread. (Plus, they also often have salads and soups.) Ethnic eateries that offer build-your-own bowls, vegetarian options or grilled meat and vegetable plates are good bets, too.
+    
+    But if you’re passing through a traditional drive-thru, keep these tips in mind:
+    
+    Avoid fried food (e.g., french fries, onion rings, chicken strips and nuggets).
+    A grilled skinless chicken breast sandwich is lower in saturated fat than a burger.
+    Order the smallest sizes — don’t “supersize” anything. Ordering the kid’s menu version of your favorite fast food can give you the taste you crave with far fewer calories.
+    Skip calorie-heavy sides and toppings.
+    Bypass sugary drinks in favor of water, unsweetened tea, or fat-free or low-fat milk.
+
+    Convenient Home-Cooked Meal Kits
+    If the time it takes to gather recipes, plan what you’re going to eat for a week and grocery shop is what’s holding you back from eating healthy meals at home, there’s an easy solution: meal subscription boxes.
+    
+    There are more than 100 different companies that box up multiple meals’ worth of groceries and deliver them to your house each week. Sure, the cost is more than if you did the meal planning and shopping yourself, but many find the convenience worth it. When your meal box is delivered, you can just throw the premeasured ingredients together and follow the cooking instructions to get portion-controlled, tasty dinners on the table in minutes. You get to choose from a constantly rotating list of recipes. Many companies offer low-carb, low-calorie, gluten-free or vegetarian options as well. And you avoid buying ingredients that go unused and sit in the fridge.
+    
+    “Whether you’re dining out or eating in, it’s important to think about a balanced diet,” says Isuk. “That means making sure you’re getting a good mix of lean protein, vegetables, fruits, whole grains and healthy low-fat dairy.”
+
+    Or you can just use RCGen. We provide you with a variety of recipes that are easy to understand even for amateur home chefs.
+    
+    With such a wide range of convenient meal options available — and the information you need to make smart, heart-healthy choices — you can feel good about what you eat even when life gets busy.
+    `
   },
 ];
 

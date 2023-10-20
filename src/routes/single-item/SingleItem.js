@@ -22,7 +22,7 @@ const SingleItem = ({ handleAddProduct, handleRemoveProduct }) => {
   useEffect(() => {
     document.title = `${singleProduct.ItemName} | RCGen`;
     setSingleProduct(allProductsData.find(item => item.id === window.location.pathname.substring(6)));
-  }, []);
+  }, [singleProduct.ItemName]);
 
   return (
     <main className="single-item-container">
