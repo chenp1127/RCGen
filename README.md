@@ -9,7 +9,7 @@ Live Version:
 A e-commerce platform tailored for the gastronomy industry. We design and development, utilizing technologies like React Icons, React Router DOM, React Alice Carousel, Leaflet Maps, React Paginate, UUID, React Lazy Load, and Framer Motion.
 
 🍕 Dynamic Culinary Hub:
-Fictional restaurant featuring an extensive menu including pizzas, sushi, and pasta. Used React components like Icons, Router, and Carousel for easy navigation and user interface.
+Used React components like Icons, Router, and Carousel for easy navigation and user interface.
 
 📍 Spatial Awareness with Leaflet Maps:
 Used Leaflet Maps API to provide geographical insights, enhancing user interaction and store location understanding.
@@ -32,18 +32,15 @@ Enabled user registration, login, and profile management. Users modify and delet
 📧 Secure Communication via reCAPTCHA:
 Integrated Google reCAPTCHA to verify contact form users, curbing spam and ensuring secure communication.
 
-Pizza Time brings together delicious food and advanced technology, creating a user-friendly digital experience. It's where great food meets programming, letting users enjoy a convenient and satisfying culinary journey.
+RCGen brings together delicious food and advanced technology, creating a user-friendly digital experience. It's where great food meets programming, letting users enjoy a convenient and satisfying culinary journey.
 
 ## Contents
 
 - [Getting Started with Create React App](#gettingStarted)
 - [Available Scripts](#scripts)
-- [Goals](#goals)
-- [User Story](#userStory)
 - [Used Dependencies](#dependencies)
 - [Useful Resources](#resources)
 - [Contribution](#contribution)
-- [License](#license)
 
 ## Getting Started with Create React App <a id="gettingStarted"></a>
 
@@ -94,15 +91,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 
-## Goals <a id="goals"></a>
-The main goal of this project is to get better at React and experience what it's like to work on something that feels more like a real project. In the past, I've mostly worked on small pieces of code that didn't do much on their own. With this project, I want to step into different shoes – not just as a coder, but as someone who's building something useful and someone who's going to use it. 
-
-
-## User Story <a id="userStory"></a>
-
-As a user, I want to be able to add items to cart even if I am not logged in/registered. When navigating to the menu page, I want to see menu items that have pictures, name, ingredients, pricing.
-I want to be able to sort the menu by categories, as well as be able to find something specific by writing it in the search bar. I want to be able to add items to cart, indicate the amount or delete the items from the cart. In the cart section, I want to be able to see how much I have to pay total and have the possibility to navigate to payments. Before paying, I want to add a special request to my order, like, "no spicy, please".
-
 ## Used Dependencies <a id="dependencies"></a>
 
 - [React Icons](https://www.npmjs.com/package/react-icons)
@@ -127,7 +115,3 @@ I want to be able to sort the menu by categories, as well as be able to find som
 - [TinyPNG](https://tinypng.com/) - smart lossy compression techniques to reduce the file size of your WEBP, JPEG and PNG files.
 - [React Lazy Load Image Component](https://www.npmjs.com/package/react-lazy-load-image-component) - React Component to lazy load images and other components/elements.
 - [React Icons](https://react-icons.github.io/react-icons) - Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
-- [PlanetScale](https://planetscale.com/docs/) - serverless MySQL database
-
-## License  <a id="license"></a>
-This project is released under the MIT [LICENSE](https://github.com/catherineisonline/pizza-time-with-react/blob/main/LICENSE). You can find the specific terms and conditions outlined in the LICENSE file. This means you're free to utilize, modify, and distribute the project according to the terms of the MIT License.

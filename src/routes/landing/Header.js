@@ -31,7 +31,7 @@ const Header = ({ loginModal,
             height="50"
             className="logo"
             src={logo}
-            alt="Pizza Time logo"
+            alt="RCGen logo"
           />
           <h1>
             RC <span>Gen</span>
