@@ -467,9 +467,9 @@ header {
   letter-spacing: 1.5px;
 }
 
-.section-9 .active-button-style {
+/* .section-9 .active-button-style {
   margin: 0 auto;
-}
+} */
 /* Section 5 */
 .section-5 {
   flex-direction: column;
@@ -618,6 +618,9 @@ header {
   height: auto;
   overflow: hidden;
 }
+.section-8 .active-button-style {
+  margin: 0 auto;
+}
 /* Hero Video */
 .hero-section {
   height: 38rem;
@@ -745,6 +748,10 @@ header {
   text-transform: uppercase;
   font-size: 2.5rem;
   font-weight: 400;
+}
+
+.section-9 .active-button-style {
+  margin: 0 auto; 
 }
 
 /* Blog Posts */

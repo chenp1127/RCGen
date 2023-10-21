@@ -8,9 +8,9 @@ import blogPreview from '../../data/blogPreviewData';
 export default class BlogPreview extends React.Component {
   render() {
     return (
-      <motion.div className="section-9-container"
-        initial={{ opacity: 0, translateX: -300 }}
-        whileInView={{ opacity: 1, translateX: 0 }}
+      <motion.div className="section-9 flex-container flex-column"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 2 }}
       >
