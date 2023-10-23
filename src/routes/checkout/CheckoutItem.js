@@ -40,7 +40,7 @@ const CheckoutItem = ({ cartItem }) => {
           <h3>{cartItem.ItemName}</h3>
         ) : (
           <h3>
-            {cartItem.ItemName}{" "}
+            
             <span>
               {cartItem.userSelectedAttributes
                 .map((attribute) => attribute.attributeValue)

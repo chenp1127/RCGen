@@ -30,13 +30,13 @@ const CartItem = ({
                   <h3 className="cart-item-title">{cartItem.ItemName}</h3>
                 ) : (
                   <h3 className="cart-item-title">
-                    {cartItem.ItemName},{" "}
+              
                     {cartItem.userSelectedAttributes.map((i, index) => {
                       return <span key={index}>{i.attributeValue}</span>;
                     })}
                   </h3>
                 )}
-                <p className="cart-item-ingredients">{cartItem.ItemDescription}</p>
+                
               </section>
               <section className="cart-item-interaction">
                 <ChangeItemQuantity
