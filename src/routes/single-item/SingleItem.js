@@ -4,8 +4,6 @@ import Attribute from "../menu/Attribute";
 import { allProductsData } from "../../data/AllProductsData.js";
 import { Link } from "react-router-dom";
 
-let currPrice = 0;
-
 const SingleItem = ({ handleAddProduct, handleRemoveProduct }) => {
   const [singleProduct, setSingleProduct] = useState([]);
   const [selectedAttributes, setSelectedAttributes] = useState([]);
@@ -13,25 +11,17 @@ const SingleItem = ({ handleAddProduct, handleRemoveProduct }) => {
 
   const handleSelectedAttributes = (attributeId, attributeValue, attributePrice) => {
     setTargetAttribute(attributeValue);
-    currPrice = attributePrice;
-    const newSelectedAttribute = { attributeId, attributeValue, attributePrice };
-    setSelectedAttributes(prevAttributes => {
-      const existingAttributeIndex = prevAttributes.findIndex(
-        attribute => attribute.attributeId === newSelectedAttribute.attributeId
-      );
-      if (existingAttributeIndex !== -1) {
-        const updatedAttributes = [...prevAttributes];
-        updatedAttributes[existingAttributeIndex] = { ...newSelectedAttribute };
-        return updatedAttributes;
-      } else {
-        return [...prevAttributes, newSelectedAttribute];
-      }
-    });
+    const selectedAttribute = {
+      attributeId,
+      attributeValue,
+      attributePrice: parseFloat(attributePrice) // Parse the price to float
+    };
+    setSelectedAttributes([selectedAttribute]);
   };
 
   useEffect(() => {
-    document.title = `${singleProduct.ItemName}| RCGen`;
-    setSingleProduct(allProductsData.filter((item) => item.id === window.location.pathname.toString().substring(6))[0]);
+    document.title = `${singleProduct.ItemName} | RCGen`;
+    setSingleProduct(allProductsData.find(item => item.id === window.location.pathname.substring(6)));
   }, [singleProduct.ItemName]);
 
   return (
@@ -61,14 +51,10 @@ const SingleItem = ({ handleAddProduct, handleRemoveProduct }) => {
             ))
           }
           <section className="price">
-            {singleProduct.sale === true ?
-              <section className="sale-pricing">
-                <p className="price-num-before"><span>$</span>{singleProduct.ItemPriceBefore}</p>
-                <p className="price-num"><span>$</span>{singleProduct.ItemPrice}</p>
-              </section>
-              :
-              <p className="price-num"><span>$</span>{currPrice}</p>
-            }
+            <p className="price-num">
+              <span>$</span>
+              {selectedAttributes.length > 0 ? selectedAttributes[0].attributePrice.toFixed(2) : singleProduct.ItemPrice}
+            </p>
             <AddToCartButton
               handleAddProduct={handleAddProduct}
               handleRemoveProduct={handleRemoveProduct}
@@ -80,9 +66,13 @@ const SingleItem = ({ handleAddProduct, handleRemoveProduct }) => {
           </section>
         </section>
       </article>
+      <p className="single-item-recipe single-item flex-container flex-column txt-white">
+        <h2>Recipe</h2>
+        <p>Cooking time: {singleProduct?.CookingTime} mins</p>
+        <p className="single-item-recipe">{singleProduct?.Recipe}</p>
+      </p>
     </main>
   );
 }
-
 
 export default SingleItem;

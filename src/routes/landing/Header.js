@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/recipe-w-bg.png'
 import openMenu from '../../assets/images/open-menu.svg'
 import closeMenu from '../../assets/images/close-menu.svg'
 import { Link, NavLink } from 'react-router-dom'
@@ -31,7 +31,7 @@ const Header = ({ loginModal,
             height="50"
             className="logo"
             src={logo}
-            alt="Pizza Time logo"
+            alt="RCGen logo"
           />
           <h1>
             RC <span>Gen</span>

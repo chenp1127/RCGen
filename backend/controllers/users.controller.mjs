@@ -6,7 +6,6 @@ export const getUsers = (req, res) => {
             res.status(200).json({
                 message: "Users retrieved",
                 data: result
-                //data: result[0]
             })
         }).catch((err) => {
             res.status(500).send(err)
@@ -18,7 +17,6 @@ export const getUser = (req, res) => {
         .then((result) => {
             res.status(200).json({
                 message: "User retrieved",
-                //data: result[0]
                 data: result
             })
         }).catch((err) => {
